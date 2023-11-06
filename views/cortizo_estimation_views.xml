@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+              
+
+    <record id="cortizo_estimation_tree_view" model="ir.ui.view">
+        <field name="name">cortizo.estimation.tree.view</field>
+        <field name="model">cortizo.estimation</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+            </tree>
+
+        </field>
+    </record>
+
+    <record id="cortizo_estimation_form_view" model="ir.ui.view">
+        <field name="name">Cortizo Estimation Form</field>
+        <field name="model">cortizo.estimation</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form> 
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="left_shutter"/>
+                            <field name="right_shutter"/>
+                            <field name="length"/>
+                            <field name="height"/>
+                            <field name="opening"/>
+                        </group>
+                        <group>
+                            <field name="sill_type"/>
+                            <field name="slide_type"/>
+                            <field name="jamb_type"/>
+                            <field name="point_lock"/>
+                            <field name="lth"/>
+
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Estimations">
+                            <field name="estimation_lines">
+                                <tree editable="bottom">
+                                    <field name="material_name"/>
+                                    <field name="part_name"/>
+                                    <field name="shape"/>
+                                    <field name="length"/>
+                                    <field name="units"/>
+    
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+
+            </form>
+        </field>
+    </record>
+
+
+    <record id="details_cortizo_estimation_action" model="ir.actions.act_window">
+        <field name="name">Cortizo Estimation</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">cortizo.estimation</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Create...</p>
+        </field>
+    </record>
+
+
+    <menuitem
+        name="Cortizo"
+        id="menu_cortizo"
+        action="details_cortizo_estimation_action"
+        web_icon="cortizo_estimation/static/description/icon.png"
+        sequence="6"
+    />
+    <menuitem
+        name="Estimation"
+        id="menu_cortizo_estimation"
+        action="details_cortizo_estimation_action"
+        parent="menu_cortizo"
+        sequence="10"
+    />
+
+</odoo>
