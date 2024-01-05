@@ -1,3 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_cortizo_estimation_line,access_cortizo_estimation_line,model_cortizo_estimation_line,base.group_user,1,1,1,1
-access_cortizo_estimation,access_cortizo_estimation,model_cortizo_estimation,base.group_user,1,1,1,1
+access_cortizo_bifold_estimation,access_cortizo_bifold_estimation,model_cortizo_bifold_estimation,base.group_user,1,1,1,1
+access_cortizo_bifold_component_line,access_cortizo_bifold_component_line,model_cortizo_bifold_component_line,base.group_user,1,1,1,1
+access_cortizo_bifold_cost_line,access_cortizo_bifold_cost_line,model_cortizo_bifold_cost_line,base.group_user,1,1,1,1
