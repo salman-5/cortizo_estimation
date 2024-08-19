@@ -24,7 +24,7 @@ jobs:
     - name: Run Pylint with Odoo Plugin
       run: |
         # Add the directory as safe before mounting it in Docker
-        git config --global --add safe.directory $(pwd)
+        git config --global --add safe.directory /mnt/
         
         # Run the Docker container and mount the directory
         docker run --rm -v $(pwd):/mnt/ salras/odoo-base pylint --load-plugins=pylint_odoo -d all -e odoolint /mnt/
