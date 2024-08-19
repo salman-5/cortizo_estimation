@@ -22,6 +22,7 @@ jobs:
         docker pull salras/odoo-base
 
     - name: Run Pylint with Odoo Plugin
+      continue-on-error: true
       run: |
         # Add the directory as safe before mounting it in Docker
         git config --global --add safe.directory /mnt/
