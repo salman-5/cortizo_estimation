@@ -17,28 +17,11 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-
-    - name: Cache Docker layers
-      uses: actions/cache@v3
-      with:
-        path: /home/runner/.docker
-        key: ${{ runner.os }}-docker-${{ github.sha }}
-        restore-keys: |
-          ${{ runner.os }}-docker-
-
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v2
-
     - name: Load Docker image from cache or build if not available
       run: |
         docker pull salras/odoo-base
 
     - name: Run Pylint with Odoo Plugin
       run: |
-        git config --global --add safe.directory /mnt/cortizo_estimation
-        docker run --rm -v $(pwd):/mnt/ salras/odoo-base pylint --load-plugins=pylint_odoo -d all -e odoolint /mnt
+        git config --global --add safe.directory /mnt/
+        docker run --rm -v $(pwd):/mnt/ salras/odoo-base pylint --load-plugins=pylint_odoo -d all -e odoolint /mnt/*
