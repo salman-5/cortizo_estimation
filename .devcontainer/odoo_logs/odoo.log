@@ -1,0 +1,1491 @@
+2024-08-12 20:14:38,757 1 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:14:38,759 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:14:38,759 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:14:38,760 1 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:14:38,922 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 20:14:39,201 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 8173e4ba5f14:8069 
+2024-08-12 20:15:36,138 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-12 20:15:36,139 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-12 20:16:52,042 1 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:16:52,043 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:16:52,043 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:16:52,044 1 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:16:52,139 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 20:16:52,337 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 8173e4ba5f14:8069 
+2024-08-12 20:17:55,938 1 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-12 20:17:55,939 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-12 20:18:54,566 1 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:18:54,567 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:18:54,567 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:18:54,568 1 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:18:54,749 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 20:18:55,041 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on e06de4d007df:8069 
+2024-08-12 20:24:38,346 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:38] "GET / HTTP/1.1" 303 - 1 0.019 0.021
+2024-08-12 20:24:38,359 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:38] "GET /web HTTP/1.1" 303 - 2 0.002 0.007
+2024-08-12 20:24:39,558 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/database/selector HTTP/1.1" 200 - 2 0.002 1.190
+2024-08-12 20:24:39,591 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 1 0.002 0.011
+2024-08-12 20:24:39,613 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 1 0.002 0.021
+2024-08-12 20:24:39,619 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 1 0.002 0.023
+2024-08-12 20:24:39,619 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - 1 0.001 0.029
+2024-08-12 20:24:39,619 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 1 0.002 0.027
+2024-08-12 20:24:39,621 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 1 0.002 0.026
+2024-08-12 20:24:39,622 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 1 0.002 0.022
+2024-08-12 20:24:39,635 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 1 0.004 0.011
+2024-08-12 20:24:39,646 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 1 0.004 0.015
+2024-08-12 20:24:39,646 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 1 0.001 0.010
+2024-08-12 20:24:39,649 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 1 0.002 0.011
+2024-08-12 20:24:39,782 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.001 0.007
+2024-08-12 20:24:39,848 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:24:39] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.001 0.006
+2024-08-12 20:25:38,718 1 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:25:38,719 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:25:38,719 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:25:38,720 1 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:25:38,848 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 20:25:39,128 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on c4e64940ce36:8069 
+2024-08-12 20:26:54,721 1 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:26:54,723 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:26:54,723 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:26:54,724 1 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:26:54,824 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 20:26:54,984 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on d676b641cbe6:8069 
+2024-08-12 20:27:37,870 1 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:27:37,871 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:27:37,871 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:27:37,872 1 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:27:37,967 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 20:27:38,121 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 35af9f84eca9:8069 
+2024-08-12 20:30:26,789 1 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:30:26,790 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:30:26,791 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:30:26,791 1 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:30:26,890 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 20:30:27,042 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on ef4b166d5cc2:8069 
+2024-08-12 20:32:46,346 1 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:32:46,348 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:32:46,348 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:32:46,348 1 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:32:46,441 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 20:32:46,607 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on b434cbb88949:8069 
+2024-08-12 20:33:06,414 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:33:06] "GET /web/database/selector HTTP/1.1" 200 - 2 0.003 0.604
+2024-08-12 20:33:08,705 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:33:08] "GET /web/database/selector HTTP/1.1" 200 - 2 0.003 0.334
+2024-08-12 20:33:09,811 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 20:33:09] "GET /web/database/selector HTTP/1.1" 200 - 2 0.002 0.327
+2024-08-12 20:33:23,244 1 INFO None odoo.service.db: Create database `test`. 
+2024-08-12 20:33:24,283 1 INFO test odoo.modules.loading: loading 1 modules... 
+2024-08-12 20:33:24,283 1 INFO test odoo.modules.loading: Loading module base (1/1) 
+2024-08-12 20:33:24,306 1 INFO test odoo.modules.registry: module base: creating or updating database tables 
+2024-08-12 20:33:24,735 1 INFO test odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2024-08-12 20:33:24,736 1 INFO test odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2024-08-12 20:33:24,737 1 INFO test odoo.models: Prepare computation of ir.module.module.views_by_module 
+2024-08-12 20:33:24,895 1 INFO test odoo.models: Prepare computation of res.partner.user_id 
+2024-08-12 20:33:24,896 1 INFO test odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2024-08-12 20:33:24,897 1 INFO test odoo.models: Prepare computation of res.partner.display_name 
+2024-08-12 20:33:24,897 1 INFO test odoo.models: Prepare computation of res.partner.company_registry 
+2024-08-12 20:33:24,897 1 INFO test odoo.models: Prepare computation of res.partner.commercial_company_name 
+2024-08-12 20:33:24,898 1 INFO test odoo.models: Prepare computation of res.partner.partner_share 
+2024-08-12 20:33:24,946 1 INFO test odoo.models: Prepare computation of res.currency.decimal_places 
+2024-08-12 20:33:24,975 1 INFO test odoo.models: Prepare computation of res.company.logo_web 
+2024-08-12 20:33:25,011 1 INFO test odoo.models: Prepare computation of res.users.signature 
+2024-08-12 20:33:25,012 1 INFO test odoo.models: Prepare computation of res.users.share 
+2024-08-12 20:33:26,179 1 INFO test odoo.modules.loading: loading base/data/res_bank.xml 
+2024-08-12 20:33:26,186 1 INFO test odoo.modules.loading: loading base/data/res.lang.csv 
+2024-08-12 20:33:26,229 1 INFO test odoo.modules.loading: loading base/data/res_lang_data.xml 
+2024-08-12 20:33:26,257 1 INFO test odoo.modules.loading: loading base/data/res_partner_data.xml 
+2024-08-12 20:33:26,304 1 INFO test odoo.modules.loading: loading base/data/res_currency_data.xml 
+2024-08-12 20:33:26,594 1 INFO test odoo.modules.loading: loading base/data/res_company_data.xml 
+2024-08-12 20:33:26,610 1 INFO test odoo.modules.loading: loading base/data/res_users_data.xml 
+2024-08-12 20:33:27,198 1 INFO test odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2024-08-12 20:33:27,206 1 INFO test odoo.modules.loading: loading base/data/res_country_data.xml 
+2024-08-12 20:33:27,544 1 INFO test odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2024-08-12 20:33:27,552 1 INFO test odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2024-08-12 20:33:27,558 1 INFO test odoo.modules.loading: loading base/security/base_groups.xml 
+2024-08-12 20:33:27,963 1 INFO test odoo.modules.loading: loading base/security/base_security.xml 
+2024-08-12 20:33:28,056 1 INFO test odoo.modules.loading: loading base/views/base_menus.xml 
+2024-08-12 20:33:28,124 1 INFO test odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2024-08-12 20:33:28,137 1 INFO test odoo.modules.loading: loading base/views/res_config_views.xml 
+2024-08-12 20:33:28,145 1 INFO test odoo.modules.loading: loading base/data/res.country.state.csv 
+2024-08-12 20:33:28,730 1 INFO test odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2024-08-12 20:33:28,833 1 INFO test odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2024-08-12 20:33:28,857 1 INFO test odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2024-08-12 20:33:28,873 1 INFO test odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2024-08-12 20:33:28,900 1 INFO test odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2024-08-12 20:33:28,913 1 INFO test odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2024-08-12 20:33:28,928 1 INFO test odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2024-08-12 20:33:28,945 1 INFO test odoo.modules.loading: loading base/views/ir_model_views.xml 
+2024-08-12 20:33:29,058 1 INFO test odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2024-08-12 20:33:29,083 1 INFO test odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2024-08-12 20:33:29,104 1 INFO test odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2024-08-12 20:33:29,121 1 INFO test odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2024-08-12 20:33:29,138 1 INFO test odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2024-08-12 20:33:29,179 1 INFO test odoo.modules.loading: loading base/views/ir_default_views.xml 
+2024-08-12 20:33:29,197 1 INFO test odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2024-08-12 20:33:29,204 1 INFO test odoo.modules.loading: loading base/report/ir_model_report.xml 
+2024-08-12 20:33:29,209 1 INFO test odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2024-08-12 20:33:29,215 1 INFO test odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2024-08-12 20:33:29,233 1 INFO test odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2024-08-12 20:33:29,242 1 INFO test odoo.modules.loading: loading base/views/ir_module_views.xml 
+2024-08-12 20:33:29,298 1 INFO test odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2024-08-12 20:33:29,351 1 INFO test odoo.modules.loading: loading base/data/ir_module_module.xml 
+2024-08-12 20:33:29,404 1 INFO test odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2024-08-12 20:33:29,407 1 INFO test odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2024-08-12 20:33:29,413 1 INFO test odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2024-08-12 20:33:29,423 1 INFO test odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2024-08-12 20:33:29,433 1 INFO test odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2024-08-12 20:33:29,443 1 INFO test odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2024-08-12 20:33:29,460 1 INFO test odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2024-08-12 20:33:29,467 1 INFO test odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2024-08-12 20:33:29,477 1 INFO test odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2024-08-12 20:33:29,491 1 INFO test odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2024-08-12 20:33:29,495 1 INFO test odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2024-08-12 20:33:29,506 1 INFO test odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2024-08-12 20:33:29,525 1 INFO test odoo.modules.loading: loading base/views/res_company_views.xml 
+2024-08-12 20:33:29,544 1 INFO test odoo.modules.loading: loading base/views/res_lang_views.xml 
+2024-08-12 20:33:29,562 1 INFO test odoo.modules.loading: loading base/views/res_partner_views.xml 
+2024-08-12 20:33:29,652 1 INFO test odoo.modules.loading: loading base/views/res_bank_views.xml 
+2024-08-12 20:33:29,679 1 INFO test odoo.modules.loading: loading base/views/res_country_views.xml 
+2024-08-12 20:33:29,710 1 INFO test odoo.modules.loading: loading base/views/res_currency_views.xml 
+2024-08-12 20:33:29,740 1 INFO test odoo.modules.loading: loading base/views/res_users_views.xml 
+2024-08-12 20:33:29,830 1 INFO test odoo.modules.loading: loading base/views/ir_property_views.xml 
+2024-08-12 20:33:29,846 1 INFO test odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2024-08-12 20:33:29,853 1 INFO test odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2024-08-12 20:33:29,876 1 INFO test odoo.modules.loading: loading base/views/onboarding_views.xml 
+2024-08-12 20:33:29,894 1 INFO test odoo.modules.loading: loading base/security/ir.model.access.csv 
+2024-08-12 20:33:30,031 1 INFO test odoo.modules.loading: Module base loaded in 5.75s, 7890 queries (+7890 other) 
+2024-08-12 20:33:30,032 1 INFO test odoo.modules.loading: 1 modules loaded in 5.75s, 7890 queries (+7890 extra) 
+2024-08-12 20:33:30,058 1 INFO test odoo.modules.loading: updating modules list 
+2024-08-12 20:33:30,059 1 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-08-12 20:33:30,508 1 INFO test odoo.modules.loading: loading 8 modules... 
+2024-08-12 20:33:30,509 1 INFO test odoo.modules.loading: Loading module web (2/8) 
+2024-08-12 20:33:30,529 1 INFO test odoo.modules.registry: module web: creating or updating database tables 
+2024-08-12 20:33:30,916 1 INFO test odoo.modules.loading: loading web/security/ir.model.access.csv 
+2024-08-12 20:33:30,928 1 INFO test odoo.modules.loading: loading web/views/webclient_templates.xml 
+2024-08-12 20:33:30,979 1 INFO test odoo.modules.loading: loading web/views/report_templates.xml 
+2024-08-12 20:33:31,037 1 INFO test odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2024-08-12 20:33:31,047 1 INFO test odoo.modules.loading: loading web/views/speedscope_template.xml 
+2024-08-12 20:33:31,051 1 INFO test odoo.modules.loading: loading web/views/lazy_assets.xml 
+2024-08-12 20:33:31,056 1 INFO test odoo.modules.loading: loading web/views/neutralize_views.xml 
+2024-08-12 20:33:31,061 1 INFO test odoo.modules.loading: loading web/data/ir_attachment.xml 
+2024-08-12 20:33:31,066 1 INFO test odoo.modules.loading: loading web/data/report_layout.xml 
+2024-08-12 20:33:31,098 1 INFO test odoo.modules.loading: Module web loaded in 0.59s, 882 queries (+882 other) 
+2024-08-12 20:33:31,099 1 INFO test odoo.modules.loading: Loading module auth_totp (3/8) 
+2024-08-12 20:33:31,130 1 INFO test odoo.modules.registry: module auth_totp: creating or updating database tables 
+2024-08-12 20:33:31,184 1 INFO test odoo.modules.loading: loading auth_totp/security/security.xml 
+2024-08-12 20:33:31,203 1 INFO test odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2024-08-12 20:33:31,211 1 INFO test odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2024-08-12 20:33:31,218 1 INFO test odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2024-08-12 20:33:31,237 1 INFO test odoo.modules.loading: loading auth_totp/views/templates.xml 
+2024-08-12 20:33:31,243 1 INFO test odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2024-08-12 20:33:31,262 1 INFO test odoo.modules.loading: Module auth_totp loaded in 0.16s, 175 queries (+175 other) 
+2024-08-12 20:33:31,262 1 INFO test odoo.modules.loading: Loading module base_import (4/8) 
+2024-08-12 20:33:31,315 1 INFO test odoo.modules.registry: module base_import: creating or updating database tables 
+2024-08-12 20:33:31,921 1 INFO test odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2024-08-12 20:33:31,950 1 INFO test odoo.modules.loading: Module base_import loaded in 0.69s, 891 queries (+891 other) 
+2024-08-12 20:33:31,950 1 INFO test odoo.modules.loading: Loading module bus (5/8) 
+2024-08-12 20:33:31,982 1 INFO test odoo.modules.registry: module bus: creating or updating database tables 
+2024-08-12 20:33:32,053 1 INFO test odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2024-08-12 20:33:32,071 1 INFO test odoo.modules.loading: Module bus loaded in 0.12s, 103 queries (+103 other) 
+2024-08-12 20:33:32,072 1 INFO test odoo.modules.loading: Loading module web_kanban_gauge (6/8) 
+2024-08-12 20:33:32,106 1 INFO test odoo.modules.loading: Module web_kanban_gauge loaded in 0.03s, 12 queries (+12 other) 
+2024-08-12 20:33:32,107 1 INFO test odoo.modules.loading: Loading module web_tour (7/8) 
+2024-08-12 20:33:32,128 1 INFO test odoo.modules.registry: module web_tour: creating or updating database tables 
+2024-08-12 20:33:32,158 1 INFO test odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2024-08-12 20:33:32,166 1 INFO test odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2024-08-12 20:33:32,174 1 INFO test odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2024-08-12 20:33:32,200 1 INFO test odoo.modules.loading: Module web_tour loaded in 0.09s, 101 queries (+101 other) 
+2024-08-12 20:33:32,201 1 INFO test odoo.modules.loading: Loading module web_editor (8/8) 
+2024-08-12 20:33:32,256 1 INFO test odoo.modules.registry: module web_editor: creating or updating database tables 
+2024-08-12 20:33:32,667 1 INFO test odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2024-08-12 20:33:32,676 1 INFO test odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2024-08-12 20:33:32,680 1 INFO test odoo.modules.loading: loading web_editor/views/editor.xml 
+2024-08-12 20:33:32,698 1 INFO test odoo.modules.loading: loading web_editor/views/snippets.xml 
+2024-08-12 20:33:32,737 1 INFO test odoo.modules.loading: Module web_editor loaded in 0.54s, 821 queries (+821 other) 
+2024-08-12 20:33:32,737 1 INFO test odoo.modules.loading: 8 modules loaded in 2.23s, 2985 queries (+2985 extra) 
+2024-08-12 20:33:32,897 1 INFO test odoo.modules.loading: Modules loaded. 
+2024-08-12 20:33:32,901 1 INFO test odoo.modules.registry: Registry loaded in 8.626s 
+2024-08-12 20:33:33,492 1 INFO test odoo.addons.base.models.res_users: Login successful for db:test login:admin from 172.22.0.1 
+2024-08-12 20:33:33,499 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 20:33:33] "POST /web/database/create HTTP/1.1" 303 - 15820 5.965 5.424
+2024-08-12 20:33:33,507 1 INFO test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-08-12 20:33:33,579 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 20:33:33] "GET /web HTTP/1.1" 303 - 6 0.002 0.071
+2024-08-12 20:33:35,263 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 20:33:35] "GET /web/login HTTP/1.1" 200 - 66 0.032 1.647
+2024-08-12 20:33:35,293 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 20:33:35] "GET /web/assets/15-39b030c/web.assets_frontend.min.css HTTP/1.1" 200 - 6 0.003 0.009
+2024-08-12 20:33:35,296 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 20:33:35] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.003 0.013
+2024-08-12 20:33:35,299 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 20:33:35] "GET /web/assets/16-82c8452/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 5 0.005 0.012
+2024-08-12 20:33:35,364 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 20:33:35] "GET /web/assets/17-b13d090/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.001 0.003
+2024-08-12 20:33:35,495 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 20:33:35] "GET /web/webclient/translations/1723494815479 HTTP/1.1" 200 - 3 0.001 0.010
+2024-08-12 20:33:35,506 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 20:33:35] "GET /web/webclient/translations/1723494815498 HTTP/1.1" 200 - 3 0.001 0.003
+2024-08-12 20:33:46,676 1 INFO test odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2024-08-12 20:33:46,693 1 INFO test odoo.addons.base.models.ir_attachment: filestore gc 14 checked, 0 removed 
+2024-08-12 20:33:46,730 1 INFO test odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2024-08-12 20:33:46,749 1 INFO test odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2024-08-12 20:33:46,762 1 INFO test odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2024-08-12 20:55:31,296 21400 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:55:31,298 21400 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:55:31,298 21400 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:55:31,298 21400 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:55:31,404 21400 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 20:58:33,026 24347 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:58:33,028 24347 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:58:33,028 24347 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:58:33,028 24347 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:58:33,107 24347 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 20:59:05,874 25906 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:59:05,875 25906 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:59:05,876 25906 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:59:05,876 25906 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:59:05,956 25906 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 20:59:27,010 26940 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:59:27,011 26940 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:59:27,012 26940 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:59:27,012 26940 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:59:27,099 26940 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 20:59:36,601 27579 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 20:59:36,602 27579 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 20:59:36,602 27579 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 20:59:36,603 27579 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 20:59:36,684 27579 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 21:00:59,503 28907 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 21:00:59,504 28907 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 21:00:59,504 28907 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 21:00:59,504 28907 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 21:00:59,618 28907 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 21:01:29,074 30546 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 21:01:29,076 30546 INFO ? odoo: Using configuration file at /mnt/extra-addons/.devcontainer/config/odoo.conf 
+2024-08-12 21:01:29,076 30546 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 21:01:29,076 30546 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 21:01:29,156 30546 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 21:02:32,487 1 INFO test odoo.addons.base.models.res_users: Login successful for db:test login:admin from 172.22.0.1 
+2024-08-12 21:02:32,501 1 INFO test odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-08-12 21:02:32,503 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:32] "POST /web/login HTTP/1.1" 303 - 41 0.023 0.353
+2024-08-12 21:02:35,839 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:35] "GET /web HTTP/1.1" 200 - 106 0.059 3.273
+2024-08-12 21:02:35,868 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:35] "GET /web/assets/18-fe57db6/web.assets_common.min.css HTTP/1.1" 200 - 4 0.001 0.004
+2024-08-12 21:02:35,889 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:35] "GET /web/webclient/load_menus/3b5665afdb76f0b35edca6c8b7486724a31b5c9e8fd5a2aa71a636993cb1dd9b HTTP/1.1" 200 - 2 0.002 0.012
+2024-08-12 21:02:35,890 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:35] "GET /web/assets/20-fe57db6/web.assets_common.min.js HTTP/1.1" 200 - 4 0.004 0.015
+2024-08-12 21:02:35,890 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:35] "GET /web/assets/19-133332b/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.005 0.016
+2024-08-12 21:02:35,890 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:35] "GET /web/assets/21-133332b/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.004 0.014
+2024-08-12 21:02:35,891 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:35] "GET /web/assets/22-6bf707c/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.002 0.015
+2024-08-12 21:02:35,896 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:35] "GET /web/webclient/translations/65607f58d5469d51a5b051eb66c57db2c3d405a5?lang=en_US HTTP/1.1" 200 - 3 0.004 0.010
+2024-08-12 21:02:36,132 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.000 0.003
+2024-08-12 21:02:36,165 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 9 0.005 0.019
+2024-08-12 21:02:36,182 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.005
+2024-08-12 21:02:36,199 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.014
+2024-08-12 21:02:36,205 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "POST /web/action/load HTTP/1.1" 200 - 11 0.017 0.020
+2024-08-12 21:02:36,207 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 16 0.027 0.011
+2024-08-12 21:02:36,208 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.016 0.014
+2024-08-12 21:02:36,211 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-08-12 21:02:36,252 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.014 0.024
+2024-08-12 21:02:36,275 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2024-08-12 21:02:36,290 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.014 0.010
+2024-08-12 21:02:36,360 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-08-12 21:02:36,361 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-08-12 21:02:36,361 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-08-12 21:02:36,361 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-08-12 21:02:36,362 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-08-12 21:02:36,363 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-08-12 21:02:36,371 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-08-12 21:02:36,376 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-08-12 21:02:36,380 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-08-12 21:02:36,384 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-08-12 21:02:36,386 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-08-12 21:02:36,386 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-08-12 21:02:36,388 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-08-12 21:02:36,396 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-08-12 21:02:36,403 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-08-12 21:02:36,404 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-08-12 21:02:36,405 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-08-12 21:02:36,405 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-08-12 21:02:36,405 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-08-12 21:02:36,414 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-08-12 21:02:36,417 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-08-12 21:02:36,420 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-08-12 21:02:36,422 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-08-12 21:02:36,425 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-08-12 21:02:36,430 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-08-12 21:02:36,433 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-08-12 21:02:36,441 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-08-12 21:02:36,444 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-08-12 21:02:36,445 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-08-12 21:02:36,445 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-08-12 21:02:36,446 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-08-12 21:02:36,448 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-08-12 21:02:36,453 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-08-12 21:02:36,462 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-08-12 21:02:36,464 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-08-12 21:02:36,466 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-08-12 21:02:36,467 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-08-12 21:02:36,469 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-08-12 21:02:36,485 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.020
+2024-08-12 21:02:36,485 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.014
+2024-08-12 21:02:36,486 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2024-08-12 21:02:36,486 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-08-12 21:02:36,489 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-08-12 21:02:36,489 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-08-12 21:02:36,495 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-08-12 21:02:36,503 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-08-12 21:02:36,505 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-08-12 21:02:36,507 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-08-12 21:02:36,508 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /note/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-08-12 21:02:36,508 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-08-12 21:02:36,512 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2024-08-12 21:02:36,512 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-08-12 21:02:36,514 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:36] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-08-12 21:02:42,443 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:42] "POST /web/action/load HTTP/1.1" 200 - 25 0.009 0.011
+2024-08-12 21:02:42,492 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:42] "POST /web/dataset/call_kw/res.users/get_views HTTP/1.1" 200 - 45 0.014 0.030
+2024-08-12 21:02:42,507 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:42] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2024-08-12 21:02:42,513 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:42] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 13 0.004 0.006
+2024-08-12 21:02:46,346 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:46] "POST /web/dataset/call_kw/res.users/web_search_read HTTP/1.1" 200 - 6 0.002 0.004
+2024-08-12 21:02:48,572 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:48] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.005
+2024-08-12 21:02:48,586 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:48] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.012 0.009
+2024-08-12 21:02:55,910 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.006
+2024-08-12 21:02:55,922 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:55] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.011 0.010
+2024-08-12 21:02:55,956 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:55] "GET /base/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-08-12 21:02:55,956 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:55] "GET /l10n_ar_website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-08-12 21:02:58,377 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:58] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.014 0.009
+2024-08-12 21:02:58,388 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:02:58] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2024-08-12 21:03:05,132 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:05] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.006
+2024-08-12 21:03:05,143 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.012 0.010
+2024-08-12 21:03:06,512 1 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Sales'] to user admin #2 via 172.22.0.1 
+2024-08-12 21:03:06,513 1 INFO test odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-08-12 21:03:06,514 1 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Sales'] to user admin #2 via 172.22.0.1 
+2024-08-12 21:03:06,637 1 INFO test odoo.modules.loading: loading 1 modules... 
+2024-08-12 21:03:06,643 1 INFO test odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-08-12 21:03:06,661 1 INFO test odoo.modules.loading: updating modules list 
+2024-08-12 21:03:06,663 1 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2024-08-12 21:03:07,104 1 INFO test odoo.modules.loading: loading 8 modules... 
+2024-08-12 21:03:07,112 1 INFO test odoo.modules.loading: 8 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-08-12 21:03:07,117 1 INFO test odoo.modules.loading: loading 50 modules... 
+2024-08-12 21:03:07,117 1 INFO test odoo.modules.loading: Loading module uom (2/50) 
+2024-08-12 21:03:07,145 1 INFO test odoo.modules.registry: module uom: creating or updating database tables 
+2024-08-12 21:03:07,208 1 INFO test odoo.modules.loading: loading uom/data/uom_data.xml 
+2024-08-12 21:03:07,255 1 INFO test odoo.modules.loading: loading uom/security/uom_security.xml 
+2024-08-12 21:03:07,270 1 INFO test odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2024-08-12 21:03:07,281 1 INFO test odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2024-08-12 21:03:07,324 1 INFO test odoo.modules.loading: Module uom loaded in 0.21s, 283 queries (+283 other) 
+2024-08-12 21:03:07,325 1 INFO test odoo.modules.loading: Loading module base_setup (6/50) 
+2024-08-12 21:03:07,397 1 INFO test odoo.modules.registry: module base_setup: creating or updating database tables 
+2024-08-12 21:03:07,438 1 INFO test odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2024-08-12 21:03:07,443 1 INFO test odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2024-08-12 21:03:07,473 1 INFO test odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2024-08-12 21:03:07,495 1 INFO test odoo.modules.loading: Module base_setup loaded in 0.17s, 153 queries (+153 other) 
+2024-08-12 21:03:07,495 1 INFO test odoo.modules.loading: Loading module http_routing (8/50) 
+2024-08-12 21:03:07,513 1 INFO test odoo.modules.registry: module http_routing: creating or updating database tables 
+2024-08-12 21:03:07,522 1 INFO test odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2024-08-12 21:03:07,552 1 INFO test odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2024-08-12 21:03:07,573 1 INFO test odoo.modules.loading: Module http_routing loaded in 0.08s, 77 queries (+77 other) 
+2024-08-12 21:03:07,573 1 INFO test odoo.modules.loading: Loading module resource (9/50) 
+2024-08-12 21:03:07,599 1 INFO test odoo.modules.registry: module resource: creating or updating database tables 
+2024-08-12 21:03:07,728 1 INFO test odoo.modules.loading: loading resource/data/resource_data.xml 
+2024-08-12 21:03:07,755 1 INFO test odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2024-08-12 21:03:07,765 1 INFO test odoo.modules.loading: loading resource/security/resource_security.xml 
+2024-08-12 21:03:07,784 1 INFO test odoo.modules.loading: loading resource/views/resource_views.xml 
+2024-08-12 21:03:07,867 1 INFO test odoo.modules.loading: Module resource loaded in 0.29s, 426 queries (+426 other) 
+2024-08-12 21:03:07,868 1 INFO test odoo.modules.loading: Loading module utm (10/50) 
+2024-08-12 21:03:07,894 1 INFO test odoo.modules.registry: module utm: creating or updating database tables 
+2024-08-12 21:03:08,018 1 INFO test odoo.modules.loading: loading utm/data/utm_medium_data.xml 
+2024-08-12 21:03:08,037 1 INFO test odoo.modules.loading: loading utm/data/utm_source_data.xml 
+2024-08-12 21:03:08,052 1 INFO test odoo.modules.loading: loading utm/data/utm_stage_data.xml 
+2024-08-12 21:03:08,057 1 INFO test odoo.modules.loading: loading utm/data/utm_tag_data.xml 
+2024-08-12 21:03:08,061 1 INFO test odoo.modules.loading: loading utm/views/utm_campaign_views.xml 
+2024-08-12 21:03:08,084 1 INFO test odoo.modules.loading: loading utm/views/utm_medium_views.xml 
+2024-08-12 21:03:08,097 1 INFO test odoo.modules.loading: loading utm/views/utm_source_views.xml 
+2024-08-12 21:03:08,107 1 INFO test odoo.modules.loading: loading utm/views/utm_stage_views.xml 
+2024-08-12 21:03:08,115 1 INFO test odoo.modules.loading: loading utm/views/utm_tag_views.xml 
+2024-08-12 21:03:08,122 1 INFO test odoo.modules.loading: loading utm/views/utm_menus.xml 
+2024-08-12 21:03:08,146 1 INFO test odoo.modules.loading: loading utm/security/ir.model.access.csv 
+2024-08-12 21:03:08,169 1 INFO test odoo.modules.loading: Module utm loaded in 0.30s, 403 queries (+403 other) 
+2024-08-12 21:03:08,170 1 INFO test odoo.modules.loading: Loading module iap (13/50) 
+2024-08-12 21:03:08,194 1 INFO test odoo.modules.registry: module iap: creating or updating database tables 
+2024-08-12 21:03:08,238 1 INFO test odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2024-08-12 21:03:08,244 1 INFO test odoo.modules.loading: loading iap/security/ir_rule.xml 
+2024-08-12 21:03:08,250 1 INFO test odoo.modules.loading: loading iap/views/iap_views.xml 
+2024-08-12 21:03:08,269 1 INFO test odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2024-08-12 21:03:08,294 1 INFO test odoo.modules.loading: Module iap loaded in 0.12s, 143 queries (+143 other) 
+2024-08-12 21:03:08,294 1 INFO test odoo.modules.loading: Loading module mail (14/50) 
+2024-08-12 21:03:08,379 1 INFO test odoo.modules.registry: module mail: creating or updating database tables 
+2024-08-12 21:03:08,918 1 INFO test odoo.models: Prepare computation of ir.actions.server.partner_ids 
+2024-08-12 21:03:08,919 1 INFO test odoo.models: Prepare computation of ir.actions.server.template_id 
+2024-08-12 21:03:08,919 1 INFO test odoo.models: Prepare computation of ir.actions.server.activity_type_id 
+2024-08-12 21:03:08,919 1 INFO test odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range 
+2024-08-12 21:03:08,920 1 INFO test odoo.models: Prepare computation of ir.actions.server.activity_user_id 
+2024-08-12 21:03:08,920 1 INFO test odoo.models: Prepare computation of ir.actions.server.mail_post_method 
+2024-08-12 21:03:08,921 1 INFO test odoo.models: Prepare computation of ir.actions.server.activity_summary 
+2024-08-12 21:03:08,921 1 INFO test odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range_type 
+2024-08-12 21:03:08,921 1 INFO test odoo.models: Prepare computation of ir.actions.server.activity_user_type 
+2024-08-12 21:03:08,921 1 INFO test odoo.models: Prepare computation of ir.actions.server.activity_user_field_name 
+2024-08-12 21:03:08,922 1 INFO test odoo.models: Prepare computation of ir.actions.server.activity_note 
+2024-08-12 21:03:08,922 1 INFO test odoo.models: Prepare computation of ir.actions.server.mail_post_autofollow 
+2024-08-12 21:03:08,959 1 INFO test odoo.models: Prepare computation of res.partner.email_normalized 
+2024-08-12 21:03:08,964 1 INFO test odoo.models: Prepare computation of res.users.notification_type 
+2024-08-12 21:03:09,788 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:09] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 0 0.000 0.002
+2024-08-12 21:03:10,019 1 INFO test odoo.modules.loading: loading mail/data/mail_groups.xml 
+2024-08-12 21:03:10,125 1 INFO test odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2024-08-12 21:03:10,131 1 INFO test odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2024-08-12 21:03:10,143 1 INFO test odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2024-08-12 21:03:10,152 1 INFO test odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2024-08-12 21:03:10,161 1 INFO test odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2024-08-12 21:03:10,168 1 INFO test odoo.modules.loading: loading mail/wizard/mail_template_reset_views.xml 
+2024-08-12 21:03:10,177 1 INFO test odoo.modules.loading: loading mail/views/fetchmail_views.xml 
+2024-08-12 21:03:10,193 1 INFO test odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2024-08-12 21:03:10,204 1 INFO test odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2024-08-12 21:03:10,217 1 INFO test odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2024-08-12 21:03:10,228 1 INFO test odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2024-08-12 21:03:10,252 1 INFO test odoo.modules.loading: loading mail/views/mail_message_schedule_views.xml 
+2024-08-12 21:03:10,264 1 INFO test odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2024-08-12 21:03:10,285 1 INFO test odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2024-08-12 21:03:10,296 1 INFO test odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2024-08-12 21:03:10,305 1 INFO test odoo.modules.loading: loading mail/views/mail_channel_member_views.xml 
+2024-08-12 21:03:10,316 1 INFO test odoo.modules.loading: loading mail/views/mail_channel_rtc_session_views.xml 
+2024-08-12 21:03:10,328 1 INFO test odoo.modules.loading: loading mail/views/mail_link_preview_views.xml 
+2024-08-12 21:03:10,334 1 INFO test odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2024-08-12 21:03:10,354 1 INFO test odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2024-08-12 21:03:10,363 1 INFO test odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2024-08-12 21:03:10,404 1 INFO test odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2024-08-12 21:03:10,424 1 INFO test odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2024-08-12 21:03:10,443 1 INFO test odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2024-08-12 21:03:10,451 1 INFO test odoo.modules.loading: loading mail/data/mail_templates_chatter.xml 
+2024-08-12 21:03:10,465 1 INFO test odoo.modules.loading: loading mail/data/mail_templates_email_layouts.xml 
+2024-08-12 21:03:10,482 1 INFO test odoo.modules.loading: loading mail/data/mail_templates_mailgateway.xml 
+2024-08-12 21:03:10,492 1 INFO test odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2024-08-12 21:03:10,510 1 INFO test odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2024-08-12 21:03:10,526 1 INFO test odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2024-08-12 21:03:10,549 1 INFO test odoo.modules.loading: loading mail/security/mail_security.xml 
+2024-08-12 21:03:10,633 1 INFO test odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2024-08-12 21:03:10,671 1 INFO test odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2024-08-12 21:03:10,681 1 INFO test odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2024-08-12 21:03:10,698 1 INFO test odoo.modules.loading: loading mail/views/mail_gateway_allowed_views.xml 
+2024-08-12 21:03:10,711 1 INFO test odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2024-08-12 21:03:10,718 1 INFO test odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2024-08-12 21:03:10,726 1 INFO test odoo.modules.loading: loading mail/views/res_users_views.xml 
+2024-08-12 21:03:10,741 1 INFO test odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2024-08-12 21:03:10,752 1 INFO test odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2024-08-12 21:03:10,771 1 INFO test odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2024-08-12 21:03:10,781 1 INFO test odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2024-08-12 21:03:10,803 1 INFO test odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2024-08-12 21:03:10,845 1 INFO test odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2024-08-12 21:03:10,859 1 INFO test odoo.modules.loading: loading mail/views/mail_menus.xml 
+2024-08-12 21:03:10,969 1 INFO test odoo.modules.loading: Module mail loaded in 2.67s, 3490 queries (+3490 other) 
+2024-08-12 21:03:10,969 1 INFO test odoo.modules.loading: Loading module spreadsheet (15/50) 
+2024-08-12 21:03:11,001 1 INFO test odoo.modules.registry: module spreadsheet: creating or updating database tables 
+2024-08-12 21:03:11,089 1 INFO test odoo.modules.loading: Module spreadsheet loaded in 0.12s, 42 queries (+42 other) 
+2024-08-12 21:03:11,090 1 INFO test odoo.modules.loading: Loading module analytic (17/50) 
+2024-08-12 21:03:11,123 1 INFO test odoo.modules.registry: module analytic: creating or updating database tables 
+2024-08-12 21:03:11,299 1 INFO test odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2024-08-12 21:03:11,329 1 INFO test odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2024-08-12 21:03:11,338 1 INFO test odoo.modules.loading: loading analytic/views/analytic_line_views.xml 
+2024-08-12 21:03:11,371 1 INFO test odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2024-08-12 21:03:11,396 1 INFO test odoo.modules.loading: loading analytic/views/analytic_plan_views.xml 
+2024-08-12 21:03:11,410 1 INFO test odoo.modules.loading: loading analytic/views/analytic_distribution_model_views.xml 
+2024-08-12 21:03:11,421 1 INFO test odoo.modules.loading: loading analytic/data/analytic_data.xml 
+2024-08-12 21:03:11,435 1 INFO test odoo.modules.loading: Module analytic loaded in 0.34s, 392 queries (+392 other) 
+2024-08-12 21:03:11,435 1 INFO test odoo.modules.loading: Loading module auth_signup (18/50) 
+2024-08-12 21:03:11,470 1 INFO test odoo.modules.registry: module auth_signup: creating or updating database tables 
+2024-08-12 21:03:11,524 1 INFO test odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2024-08-12 21:03:11,530 1 INFO test odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2024-08-12 21:03:11,537 1 INFO test odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2024-08-12 21:03:11,551 1 INFO test odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2024-08-12 21:03:11,563 1 INFO test odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2024-08-12 21:03:11,580 1 INFO test odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2024-08-12 21:03:11,595 1 INFO test odoo.modules.loading: loading auth_signup/views/webclient_templates.xml 
+2024-08-12 21:03:11,617 1 INFO test odoo.modules.loading: Module auth_signup loaded in 0.18s, 191 queries (+191 other) 
+2024-08-12 21:03:11,618 1 INFO test odoo.modules.loading: Loading module auth_totp_mail (19/50) 
+2024-08-12 21:03:11,649 1 INFO test odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2024-08-12 21:03:11,673 1 INFO test odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2024-08-12 21:03:11,690 1 INFO test odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2024-08-12 21:03:11,695 1 INFO test odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2024-08-12 21:03:11,722 1 INFO test odoo.modules.loading: Module auth_totp_mail loaded in 0.10s, 92 queries (+92 other) 
+2024-08-12 21:03:11,723 1 INFO test odoo.modules.loading: Loading module base_install_request (20/50) 
+2024-08-12 21:03:11,755 1 INFO test odoo.modules.registry: module base_install_request: creating or updating database tables 
+2024-08-12 21:03:11,814 1 INFO test odoo.modules.loading: loading base_install_request/security/ir.model.access.csv 
+2024-08-12 21:03:11,825 1 INFO test odoo.modules.loading: loading base_install_request/wizard/base_module_install_request_views.xml 
+2024-08-12 21:03:11,837 1 INFO test odoo.modules.loading: loading base_install_request/data/mail_template_data.xml 
+2024-08-12 21:03:11,841 1 INFO test odoo.modules.loading: loading base_install_request/data/mail_templates_module_install.xml 
+2024-08-12 21:03:11,847 1 INFO test odoo.modules.loading: loading base_install_request/views/ir_module_module_views.xml 
+2024-08-12 21:03:11,867 1 INFO test odoo.modules.loading: Module base_install_request loaded in 0.14s, 138 queries (+138 other) 
+2024-08-12 21:03:11,867 1 INFO test odoo.modules.loading: Loading module google_gmail (21/50) 
+2024-08-12 21:03:11,903 1 INFO test odoo.modules.registry: module google_gmail: creating or updating database tables 
+2024-08-12 21:03:11,947 1 INFO test odoo.modules.loading: loading google_gmail/views/fetchmail_server_views.xml 
+2024-08-12 21:03:11,958 1 INFO test odoo.modules.loading: loading google_gmail/views/ir_mail_server_views.xml 
+2024-08-12 21:03:11,966 1 INFO test odoo.modules.loading: loading google_gmail/views/res_config_settings_views.xml 
+2024-08-12 21:03:11,994 1 INFO test odoo.modules.loading: Module google_gmail loaded in 0.13s, 122 queries (+122 other) 
+2024-08-12 21:03:11,994 1 INFO test odoo.modules.loading: Loading module iap_mail (22/50) 
+2024-08-12 21:03:12,025 1 INFO test odoo.modules.registry: module iap_mail: creating or updating database tables 
+2024-08-12 21:03:12,039 1 INFO test odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2024-08-12 21:03:12,062 1 INFO test odoo.modules.loading: Module iap_mail loaded in 0.07s, 35 queries (+35 other) 
+2024-08-12 21:03:12,062 1 INFO test odoo.modules.loading: Loading module mail_bot (23/50) 
+2024-08-12 21:03:12,099 1 INFO test odoo.modules.registry: module mail_bot: creating or updating database tables 
+2024-08-12 21:03:12,157 1 INFO test odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2024-08-12 21:03:12,176 1 INFO test odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2024-08-12 21:03:12,191 1 INFO test odoo.modules.loading: Module mail_bot loaded in 0.13s, 136 queries (+136 other) 
+2024-08-12 21:03:12,191 1 INFO test odoo.modules.loading: Loading module phone_validation (24/50) 
+2024-08-12 21:03:12,262 1 INFO test odoo.modules.registry: module phone_validation: creating or updating database tables 
+2024-08-12 21:03:12,354 1 INFO test odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2024-08-12 21:03:12,362 1 INFO test odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2024-08-12 21:03:12,386 1 INFO test odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2024-08-12 21:03:12,408 1 INFO test odoo.modules.loading: Module phone_validation loaded in 0.22s, 162 queries (+162 other) 
+2024-08-12 21:03:12,409 1 INFO test odoo.modules.loading: Loading module privacy_lookup (25/50) 
+2024-08-12 21:03:12,445 1 INFO test odoo.modules.registry: module privacy_lookup: creating or updating database tables 
+2024-08-12 21:03:12,541 1 INFO test odoo.modules.loading: loading privacy_lookup/wizard/privacy_lookup_wizard_views.xml 
+2024-08-12 21:03:12,567 1 INFO test odoo.modules.loading: loading privacy_lookup/views/privacy_log_views.xml 
+2024-08-12 21:03:12,585 1 INFO test odoo.modules.loading: loading privacy_lookup/security/ir.model.access.csv 
+2024-08-12 21:03:12,597 1 INFO test odoo.modules.loading: loading privacy_lookup/data/ir_actions_server_data.xml 
+2024-08-12 21:03:12,618 1 INFO test odoo.modules.loading: Module privacy_lookup loaded in 0.21s, 225 queries (+225 other) 
+2024-08-12 21:03:12,619 1 INFO test odoo.modules.loading: Loading module product (26/50) 
+2024-08-12 21:03:12,720 1 INFO test odoo.modules.registry: module product: creating or updating database tables 
+2024-08-12 21:03:13,387 1 INFO test odoo.modules.loading: loading product/data/product_data.xml 
+2024-08-12 21:03:13,407 1 INFO test odoo.modules.loading: loading product/security/product_security.xml 
+2024-08-12 21:03:13,496 1 INFO test odoo.modules.loading: loading product/security/ir.model.access.csv 
+2024-08-12 21:03:13,518 1 INFO test odoo.modules.loading: loading product/wizard/product_label_layout_views.xml 
+2024-08-12 21:03:13,528 1 INFO test odoo.modules.loading: loading product/views/product_views.xml 
+2024-08-12 21:03:13,596 1 INFO test odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2024-08-12 21:03:13,618 1 INFO test odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2024-08-12 21:03:13,643 1 INFO test odoo.modules.loading: loading product/views/product_category_views.xml 
+2024-08-12 21:03:13,656 1 INFO test odoo.modules.loading: loading product/views/product_packaging_views.xml 
+2024-08-12 21:03:13,681 1 INFO test odoo.modules.loading: loading product/views/product_pricelist_item_views.xml 
+2024-08-12 21:03:13,705 1 INFO test odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2024-08-12 21:03:13,728 1 INFO test odoo.modules.loading: loading product/views/product_supplierinfo_views.xml 
+2024-08-12 21:03:13,750 1 INFO test odoo.modules.loading: loading product/views/product_template_views.xml 
+2024-08-12 21:03:13,779 1 INFO test odoo.modules.loading: loading product/views/product_tag_views.xml 
+2024-08-12 21:03:13,789 1 INFO test odoo.modules.loading: loading product/views/res_country_group_views.xml 
+2024-08-12 21:03:13,794 1 INFO test odoo.modules.loading: loading product/views/res_partner_views.xml 
+2024-08-12 21:03:13,805 1 INFO test odoo.modules.loading: loading product/report/product_reports.xml 
+2024-08-12 21:03:13,819 1 INFO test odoo.modules.loading: loading product/report/product_product_templates.xml 
+2024-08-12 21:03:13,840 1 INFO test odoo.modules.loading: loading product/report/product_template_templates.xml 
+2024-08-12 21:03:13,848 1 INFO test odoo.modules.loading: loading product/report/product_packaging.xml 
+2024-08-12 21:03:13,853 1 INFO test odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml 
+2024-08-12 21:03:13,879 1 INFO test odoo.modules.loading: Module product loaded in 1.26s, 1429 queries (+1429 other) 
+2024-08-12 21:03:13,880 1 INFO test odoo.modules.loading: Loading module sales_team (27/50) 
+2024-08-12 21:03:13,922 1 INFO test odoo.modules.registry: module sales_team: creating or updating database tables 
+2024-08-12 21:03:13,965 1 INFO test odoo.models: Prepare computation of res.users.sale_team_id 
+2024-08-12 21:03:14,064 1 INFO test odoo.modules.loading: loading sales_team/security/sales_team_security.xml 
+2024-08-12 21:03:14,187 1 INFO test odoo.modules.loading: loading sales_team/security/ir.model.access.csv 
+2024-08-12 21:03:14,197 1 INFO test odoo.modules.loading: loading sales_team/data/crm_team_data.xml 
+2024-08-12 21:03:14,239 1 INFO test odoo.modules.loading: loading sales_team/views/crm_tag_views.xml 
+2024-08-12 21:03:14,251 1 INFO test odoo.modules.loading: loading sales_team/views/crm_team_views.xml 
+2024-08-12 21:03:14,283 1 INFO test odoo.modules.loading: loading sales_team/views/crm_team_member_views.xml 
+2024-08-12 21:03:14,316 1 INFO test odoo.modules.loading: loading sales_team/views/mail_activity_views.xml 
+2024-08-12 21:03:14,320 1 INFO test odoo.modules.loading: loading sales_team/views/res_partner_views.xml 
+2024-08-12 21:03:14,343 1 INFO test odoo.modules.loading: Module sales_team loaded in 0.46s, 560 queries (+560 other) 
+2024-08-12 21:03:14,344 1 INFO test odoo.modules.loading: Loading module spreadsheet_dashboard (28/50) 
+2024-08-12 21:03:14,387 1 INFO test odoo.modules.registry: module spreadsheet_dashboard: creating or updating database tables 
+2024-08-12 21:03:14,456 1 INFO test odoo.modules.loading: loading spreadsheet_dashboard/security/security.xml 
+2024-08-12 21:03:14,464 1 INFO test odoo.modules.loading: loading spreadsheet_dashboard/security/ir.model.access.csv 
+2024-08-12 21:03:14,471 1 INFO test odoo.modules.loading: loading spreadsheet_dashboard/views/spreadsheet_dashboard_views.xml 
+2024-08-12 21:03:14,485 1 INFO test odoo.modules.loading: loading spreadsheet_dashboard/views/menu_views.xml 
+2024-08-12 21:03:14,506 1 INFO test odoo.modules.loading: loading spreadsheet_dashboard/data/dashboard.xml 
+2024-08-12 21:03:14,527 1 INFO test odoo.modules.loading: Module spreadsheet_dashboard loaded in 0.18s, 185 queries (+185 other) 
+2024-08-12 21:03:14,528 1 INFO test odoo.modules.loading: Loading module web_unsplash (29/50) 
+2024-08-12 21:03:14,571 1 INFO test odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2024-08-12 21:03:14,620 1 INFO test odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2024-08-12 21:03:14,650 1 INFO test odoo.modules.loading: Module web_unsplash loaded in 0.12s, 95 queries (+95 other) 
+2024-08-12 21:03:14,651 1 INFO test odoo.modules.loading: Loading module partner_autocomplete (30/50) 
+2024-08-12 21:03:14,692 1 INFO test odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2024-08-12 21:03:14,772 1 INFO test odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2024-08-12 21:03:14,780 1 INFO test odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2024-08-12 21:03:14,798 1 INFO test odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2024-08-12 21:03:14,805 1 INFO test odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2024-08-12 21:03:14,817 1 INFO test odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2024-08-12 21:03:14,841 1 INFO test odoo.modules.loading: Module partner_autocomplete loaded in 0.19s, 175 queries (+175 other) 
+2024-08-12 21:03:14,842 1 INFO test odoo.modules.loading: Loading module portal (31/50) 
+2024-08-12 21:03:14,894 1 INFO test odoo.modules.registry: module portal: creating or updating database tables 
+2024-08-12 21:03:15,106 1 INFO test odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2024-08-12 21:03:15,113 1 INFO test odoo.modules.loading: loading portal/data/mail_template_data.xml 
+2024-08-12 21:03:15,119 1 INFO test odoo.modules.loading: loading portal/data/mail_templates.xml 
+2024-08-12 21:03:15,125 1 INFO test odoo.modules.loading: loading portal/views/portal_templates.xml 
+2024-08-12 21:03:15,212 1 INFO test odoo.modules.loading: loading portal/views/res_config_settings_views.xml 
+2024-08-12 21:03:15,227 1 INFO test odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2024-08-12 21:03:15,236 1 INFO test odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2024-08-12 21:03:15,267 1 INFO test odoo.modules.loading: Module portal loaded in 0.43s, 468 queries (+468 other) 
+2024-08-12 21:03:15,267 1 INFO test odoo.modules.loading: Loading module sms (32/50) 
+2024-08-12 21:03:15,325 1 INFO test odoo.modules.registry: module sms: creating or updating database tables 
+2024-08-12 21:03:15,330 1 INFO test odoo.models: Prepare computation of ir.actions.server.sms_template_id 
+2024-08-12 21:03:15,331 1 INFO test odoo.models: Prepare computation of ir.actions.server.sms_method 
+2024-08-12 21:03:15,350 1 INFO test odoo.models: Prepare computation of res.partner.phone_sanitized 
+2024-08-12 21:03:15,681 1 INFO test odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2024-08-12 21:03:15,689 1 INFO test odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2024-08-12 21:03:15,700 1 INFO test odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2024-08-12 21:03:15,707 1 INFO test odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2024-08-12 21:03:15,716 1 INFO test odoo.modules.loading: loading sms/wizard/sms_template_reset_views.xml 
+2024-08-12 21:03:15,723 1 INFO test odoo.modules.loading: loading sms/views/ir_actions_server_views.xml 
+2024-08-12 21:03:15,732 1 INFO test odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2024-08-12 21:03:15,743 1 INFO test odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2024-08-12 21:03:15,756 1 INFO test odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2024-08-12 21:03:15,783 1 INFO test odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2024-08-12 21:03:15,803 1 INFO test odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2024-08-12 21:03:15,820 1 INFO test odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2024-08-12 21:03:15,835 1 INFO test odoo.modules.loading: loading sms/security/sms_security.xml 
+2024-08-12 21:03:15,854 1 INFO test odoo.modules.loading: Module sms loaded in 0.59s, 628 queries (+628 other) 
+2024-08-12 21:03:15,855 1 INFO test odoo.modules.loading: Loading module snailmail (33/50) 
+2024-08-12 21:03:15,906 1 INFO test odoo.modules.registry: module snailmail: creating or updating database tables 
+2024-08-12 21:03:16,125 1 INFO test odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2024-08-12 21:03:16,134 1 INFO test odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2024-08-12 21:03:16,145 1 INFO test odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2024-08-12 21:03:16,161 1 INFO test odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
+2024-08-12 21:03:16,167 1 INFO test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2024-08-12 21:03:16,175 1 INFO test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2024-08-12 21:03:16,182 1 INFO test odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2024-08-12 21:03:16,206 1 INFO test odoo.modules.loading: Module snailmail loaded in 0.35s, 411 queries (+411 other) 
+2024-08-12 21:03:16,207 1 INFO test odoo.modules.loading: Loading module auth_totp_portal (34/50) 
+2024-08-12 21:03:16,251 1 INFO test odoo.modules.registry: module auth_totp_portal: creating or updating database tables 
+2024-08-12 21:03:16,277 1 INFO test odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2024-08-12 21:03:16,296 1 INFO test odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2024-08-12 21:03:16,315 1 INFO test odoo.modules.loading: Module auth_totp_portal loaded in 0.11s, 68 queries (+68 other) 
+2024-08-12 21:03:16,315 1 INFO test odoo.modules.loading: Loading module digest (35/50) 
+2024-08-12 21:03:16,363 1 INFO test odoo.modules.registry: module digest: creating or updating database tables 
+2024-08-12 21:03:16,505 1 INFO test odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2024-08-12 21:03:16,515 1 INFO test odoo.modules.loading: loading digest/data/digest_data.xml 
+2024-08-12 21:03:16,538 1 INFO test odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2024-08-12 21:03:16,552 1 INFO test odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2024-08-12 21:03:16,560 1 INFO test odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2024-08-12 21:03:16,567 1 INFO test odoo.modules.loading: loading digest/views/digest_views.xml 
+2024-08-12 21:03:16,606 1 INFO test odoo.modules.loading: loading digest/views/digest_templates.xml 
+2024-08-12 21:03:16,611 1 INFO test odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2024-08-12 21:03:16,642 1 INFO test odoo.modules.loading: Module digest loaded in 0.33s, 295 queries (+295 other) 
+2024-08-12 21:03:16,643 1 INFO test odoo.modules.loading: Loading module payment (36/50) 
+2024-08-12 21:03:16,696 1 INFO test odoo.modules.registry: module payment: creating or updating database tables 
+2024-08-12 21:03:16,953 1 INFO test odoo.modules.loading: loading payment/data/payment_icon_data.xml 
+2024-08-12 21:03:17,215 1 INFO test odoo.modules.loading: loading payment/data/payment_provider_data.xml 
+2024-08-12 21:03:17,609 1 INFO test odoo.modules.loading: loading payment/data/payment_cron.xml 
+2024-08-12 21:03:17,621 1 INFO test odoo.modules.loading: loading payment/views/payment_portal_templates.xml 
+2024-08-12 21:03:17,660 1 INFO test odoo.modules.loading: loading payment/views/payment_templates.xml 
+2024-08-12 21:03:17,704 1 INFO test odoo.modules.loading: loading payment/views/payment_provider_views.xml 
+2024-08-12 21:03:17,745 1 INFO test odoo.modules.loading: loading payment/views/payment_icon_views.xml 
+2024-08-12 21:03:17,762 1 INFO test odoo.modules.loading: loading payment/views/payment_transaction_views.xml 
+2024-08-12 21:03:17,799 1 INFO test odoo.modules.loading: loading payment/views/payment_token_views.xml 
+2024-08-12 21:03:17,823 1 INFO test odoo.modules.loading: loading payment/views/res_partner_views.xml 
+2024-08-12 21:03:17,842 1 INFO test odoo.modules.loading: loading payment/security/ir.model.access.csv 
+2024-08-12 21:03:17,990 1 INFO test odoo.modules.loading: loading payment/security/payment_security.xml 
+2024-08-12 21:03:18,017 1 INFO test odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml 
+2024-08-12 21:03:18,024 1 INFO test odoo.modules.loading: loading payment/wizards/payment_onboarding_views.xml 
+2024-08-12 21:03:18,047 1 INFO test odoo.modules.loading: Module payment loaded in 1.40s, 840 queries (+840 other) 
+2024-08-12 21:03:18,048 1 INFO test odoo.modules.loading: Loading module account (37/50) 
+2024-08-12 21:03:18,189 1 INFO test odoo.modules.registry: module account: creating or updating database tables 
+2024-08-12 21:03:18,891 1 INFO test odoo.models: Prepare computation of res.company.account_fiscal_country_id 
+2024-08-12 21:03:18,892 1 INFO test odoo.models: Prepare computation of res.company.early_pay_discount_computation 
+2024-08-12 21:03:18,892 1 INFO test odoo.models: Prepare computation of res.company.invoice_terms_html 
+2024-08-12 21:03:20,845 1 INFO test odoo.modules.loading: loading account/security/account_security.xml 
+2024-08-12 21:03:21,286 1 INFO test odoo.modules.loading: loading account/security/ir.model.access.csv 
+2024-08-12 21:03:21,359 1 INFO test odoo.modules.loading: loading account/data/account_data.xml 
+2024-08-12 21:03:21,428 1 INFO test odoo.modules.loading: loading account/data/digest_data.xml 
+2024-08-12 21:03:21,437 1 INFO test odoo.modules.loading: loading account/views/account_report.xml 
+2024-08-12 21:03:21,457 1 INFO test odoo.modules.loading: loading account/data/mail_template_data.xml 
+2024-08-12 21:03:21,469 1 INFO test odoo.modules.loading: loading account/views/account_payment_view.xml 
+2024-08-12 21:03:21,532 1 INFO test odoo.modules.loading: loading account/wizard/account_automatic_entry_wizard_views.xml 
+2024-08-12 21:03:21,543 1 INFO test odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml 
+2024-08-12 21:03:21,553 1 INFO test odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml 
+2024-08-12 21:03:21,565 1 INFO test odoo.modules.loading: loading account/wizard/account_resequence_views.xml 
+2024-08-12 21:03:21,576 1 INFO test odoo.modules.loading: loading account/wizard/account_payment_register_views.xml 
+2024-08-12 21:03:21,587 1 INFO test odoo.modules.loading: loading account/views/account_move_views.xml 
+2024-08-12 21:03:21,870 1 INFO test odoo.modules.loading: loading account/wizard/setup_wizards_view.xml 
+2024-08-12 21:03:21,887 1 INFO test odoo.modules.loading: loading account/views/account_account_views.xml 
+2024-08-12 21:03:21,916 1 INFO test odoo.modules.loading: loading account/views/account_group_views.xml 
+2024-08-12 21:03:21,929 1 INFO test odoo.modules.loading: loading account/views/account_journal_views.xml 
+2024-08-12 21:03:21,974 1 INFO test odoo.modules.loading: loading account/views/account_account_tag_views.xml 
+2024-08-12 21:03:21,987 1 INFO test odoo.modules.loading: loading account/views/account_bank_statement_views.xml 
+2024-08-12 21:03:22,013 1 INFO test odoo.modules.loading: loading account/views/account_reconcile_model_views.xml 
+2024-08-12 21:03:22,043 1 INFO test odoo.modules.loading: loading account/views/account_tax_views.xml 
+2024-08-12 21:03:22,098 1 INFO test odoo.modules.loading: loading account/views/account_full_reconcile_views.xml 
+2024-08-12 21:03:22,104 1 INFO test odoo.modules.loading: loading account/views/account_payment_term_views.xml 
+2024-08-12 21:03:22,124 1 INFO test odoo.modules.loading: loading account/views/account_chart_template_views.xml 
+2024-08-12 21:03:22,156 1 INFO test odoo.modules.loading: loading account/views/res_partner_bank_views.xml 
+2024-08-12 21:03:22,168 1 INFO test odoo.modules.loading: loading account/views/report_statement.xml 
+2024-08-12 21:03:22,177 1 INFO test odoo.modules.loading: loading account/views/terms_template.xml 
+2024-08-12 21:03:22,192 1 INFO test odoo.modules.loading: loading account/wizard/account_validate_move_view.xml 
+2024-08-12 21:03:22,206 1 INFO test odoo.modules.loading: loading account/views/res_company_views.xml 
+2024-08-12 21:03:22,221 1 INFO test odoo.modules.loading: loading account/views/product_view.xml 
+2024-08-12 21:03:22,248 1 INFO test odoo.modules.loading: loading account/views/account_analytic_plan_views.xml 
+2024-08-12 21:03:22,256 1 INFO test odoo.modules.loading: loading account/views/account_analytic_account_views.xml 
+2024-08-12 21:03:22,270 1 INFO test odoo.modules.loading: loading account/views/account_analytic_distribution_model_views.xml 
+2024-08-12 21:03:22,283 1 INFO test odoo.modules.loading: loading account/views/account_analytic_line_views.xml 
+2024-08-12 21:03:22,313 1 INFO test odoo.modules.loading: loading account/views/report_invoice.xml 
+2024-08-12 21:03:22,340 1 INFO test odoo.modules.loading: loading account/report/account_invoice_report_view.xml 
+2024-08-12 21:03:22,379 1 INFO test odoo.modules.loading: loading account/views/account_cash_rounding_view.xml 
+2024-08-12 21:03:22,397 1 INFO test odoo.modules.loading: loading account/views/ir_module_views.xml 
+2024-08-12 21:03:22,405 1 INFO test odoo.modules.loading: loading account/views/res_config_settings_views.xml 
+2024-08-12 21:03:22,445 1 INFO test odoo.modules.loading: loading account/views/partner_view.xml 
+2024-08-12 21:03:22,508 1 INFO test odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml 
+2024-08-12 21:03:22,526 1 INFO test odoo.modules.loading: loading account/views/account_portal_templates.xml 
+2024-08-12 21:03:22,562 1 INFO test odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml 
+2024-08-12 21:03:22,574 1 INFO test odoo.modules.loading: loading account/views/account_onboarding_templates.xml 
+2024-08-12 21:03:22,622 1 INFO test odoo.modules.loading: loading account/data/service_cron.xml 
+2024-08-12 21:03:22,630 1 INFO test odoo.modules.loading: loading account/views/account_incoterms_view.xml 
+2024-08-12 21:03:22,651 1 INFO test odoo.modules.loading: loading account/data/account_incoterms_data.xml 
+2024-08-12 21:03:22,669 1 INFO test odoo.modules.loading: loading account/views/digest_views.xml 
+2024-08-12 21:03:22,679 1 INFO test odoo.modules.loading: loading account/wizard/account_invoice_send_views.xml 
+2024-08-12 21:03:22,693 1 INFO test odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml 
+2024-08-12 21:03:22,700 1 INFO test odoo.modules.loading: loading account/views/res_currency.xml 
+2024-08-12 21:03:22,709 1 INFO test odoo.modules.loading: loading account/views/account_menuitem.xml 
+2024-08-12 21:03:22,888 1 INFO test odoo.modules.loading: loading account/wizard/account_tour_upload_bill.xml 
+2024-08-12 21:03:22,899 1 INFO test odoo.modules.loading: loading account/wizard/accrued_orders.xml 
+2024-08-12 21:03:22,907 1 INFO test odoo.modules.loading: loading account/views/bill_preview_template.xml 
+2024-08-12 21:03:22,916 1 INFO test odoo.modules.loading: loading account/data/account_reports_data.xml 
+2024-08-12 21:03:22,986 1 INFO test odoo.modules.loading: Module account loaded in 4.94s, 5965 queries (+5965 other) 
+2024-08-12 21:03:22,987 1 INFO test odoo.modules.loading: Loading module account_edi (38/50) 
+2024-08-12 21:03:23,072 1 INFO test odoo.modules.registry: module account_edi: creating or updating database tables 
+2024-08-12 21:03:23,270 1 INFO test odoo.modules.loading: loading account_edi/security/ir.model.access.csv 
+2024-08-12 21:03:23,279 1 INFO test odoo.modules.loading: loading account_edi/views/account_edi_document_views.xml 
+2024-08-12 21:03:23,288 1 INFO test odoo.modules.loading: loading account_edi/views/account_move_views.xml 
+2024-08-12 21:03:23,356 1 INFO test odoo.modules.loading: loading account_edi/views/account_payment_views.xml 
+2024-08-12 21:03:23,371 1 INFO test odoo.modules.loading: loading account_edi/views/account_journal_views.xml 
+2024-08-12 21:03:23,380 1 INFO test odoo.modules.loading: loading account_edi/data/cron.xml 
+2024-08-12 21:03:23,405 1 INFO test odoo.modules.loading: Module account_edi loaded in 0.42s, 319 queries (+319 other) 
+2024-08-12 21:03:23,406 1 INFO test odoo.modules.loading: Loading module account_payment (39/50) 
+2024-08-12 21:03:23,489 1 INFO test odoo.modules.registry: module account_payment: creating or updating database tables 
+2024-08-12 21:03:23,722 1 INFO test odoo.modules.loading: loading account_payment/security/ir.model.access.csv 
+2024-08-12 21:03:23,730 1 INFO test odoo.modules.loading: loading account_payment/security/ir_rules.xml 
+2024-08-12 21:03:23,746 1 INFO test odoo.modules.loading: loading account_payment/views/account_payment_menus.xml 
+2024-08-12 21:03:23,769 1 INFO test odoo.modules.loading: loading account_payment/views/account_portal_templates.xml 
+2024-08-12 21:03:23,797 1 INFO test odoo.modules.loading: loading account_payment/views/payment_templates.xml 
+2024-08-12 21:03:23,810 1 INFO test odoo.modules.loading: loading account_payment/views/account_move_views.xml 
+2024-08-12 21:03:23,828 1 INFO test odoo.modules.loading: loading account_payment/views/account_journal_views.xml 
+2024-08-12 21:03:23,839 1 INFO test odoo.modules.loading: loading account_payment/views/account_payment_views.xml 
+2024-08-12 21:03:23,851 1 INFO test odoo.modules.loading: loading account_payment/views/payment_provider_views.xml 
+2024-08-12 21:03:23,860 1 INFO test odoo.modules.loading: loading account_payment/views/payment_transaction_views.xml 
+2024-08-12 21:03:23,868 1 INFO test odoo.modules.loading: loading account_payment/wizards/account_payment_register_views.xml 
+2024-08-12 21:03:23,877 1 INFO test odoo.modules.loading: loading account_payment/wizards/payment_link_wizard_views.xml 
+2024-08-12 21:03:23,884 1 INFO test odoo.modules.loading: loading account_payment/wizards/payment_refund_wizard_views.xml 
+2024-08-12 21:03:23,905 1 INFO test odoo.modules.loading: Module account_payment loaded in 0.50s, 420 queries (+420 other) 
+2024-08-12 21:03:23,905 1 INFO test odoo.modules.loading: Loading module account_sequence (40/50) 
+2024-08-12 21:03:23,979 1 INFO test odoo.modules.registry: module account_sequence: creating or updating database tables 
+2024-08-12 21:03:24,060 1 INFO test odoo.modules.loading: Module account_sequence loaded in 0.16s, 57 queries (+57 other) 
+2024-08-12 21:03:24,061 1 INFO test odoo.modules.loading: Loading module snailmail_account (41/50) 
+2024-08-12 21:03:24,139 1 INFO test odoo.modules.registry: module snailmail_account: creating or updating database tables 
+2024-08-12 21:03:24,229 1 INFO test odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml 
+2024-08-12 21:03:24,253 1 INFO test odoo.modules.loading: loading snailmail_account/wizard/account_invoice_send_views.xml 
+2024-08-12 21:03:24,264 1 INFO test odoo.modules.loading: loading snailmail_account/security/ir.model.access.csv 
+2024-08-12 21:03:24,283 1 INFO test odoo.modules.loading: Module snailmail_account loaded in 0.22s, 111 queries (+111 other) 
+2024-08-12 21:03:24,283 1 INFO test odoo.modules.loading: Loading module spreadsheet_account (42/50) 
+2024-08-12 21:03:24,360 1 INFO test odoo.modules.registry: module spreadsheet_account: creating or updating database tables 
+2024-08-12 21:03:24,428 1 INFO test odoo.modules.loading: Module spreadsheet_account loaded in 0.14s, 49 queries (+49 other) 
+2024-08-12 21:03:24,429 1 INFO test odoo.modules.loading: Loading module spreadsheet_dashboard_account (43/50) 
+2024-08-12 21:03:24,512 1 INFO test odoo.modules.loading: loading spreadsheet_dashboard_account/data/dashboards.xml 
+2024-08-12 21:03:24,561 1 INFO test odoo.modules.loading: Module spreadsheet_dashboard_account loaded in 0.13s, 26 queries (+26 other) 
+2024-08-12 21:03:24,561 1 INFO test odoo.modules.loading: Loading module account_edi_ubl_cii (44/50) 
+2024-08-12 21:03:24,686 1 INFO test odoo.modules.registry: module account_edi_ubl_cii: creating or updating database tables 
+2024-08-12 21:03:24,834 1 INFO test odoo.modules.loading: loading account_edi_ubl_cii/data/account_edi_data.xml 
+2024-08-12 21:03:24,848 1 INFO test odoo.modules.loading: loading account_edi_ubl_cii/data/cii_22_templates.xml 
+2024-08-12 21:03:24,871 1 INFO test odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_20_templates.xml 
+2024-08-12 21:03:24,909 1 INFO test odoo.modules.loading: loading account_edi_ubl_cii/data/ubl_21_templates.xml 
+2024-08-12 21:03:24,931 1 INFO test odoo.modules.loading: Module account_edi_ubl_cii loaded in 0.37s, 186 queries (+186 other) 
+2024-08-12 21:03:24,932 1 INFO test odoo.modules.loading: Loading module account_payment_invoice_online_payment_patch (45/50) 
+2024-08-12 21:03:25,008 1 INFO test odoo.modules.registry: module account_payment_invoice_online_payment_patch: creating or updating database tables 
+2024-08-12 21:03:25,083 1 INFO test odoo.modules.loading: loading account_payment_invoice_online_payment_patch/data/ir_config_parameter.xml 
+2024-08-12 21:03:25,090 1 INFO test odoo.modules.loading: loading account_payment_invoice_online_payment_patch/views/account_portal_templates.xml 
+2024-08-12 21:03:25,113 1 INFO test odoo.modules.loading: loading account_payment_invoice_online_payment_patch/wizards/res_config_settings_views.xml 
+2024-08-12 21:03:25,171 1 INFO test odoo.modules.loading: Module account_payment_invoice_online_payment_patch loaded in 0.24s, 130 queries (+130 other) 
+2024-08-12 21:03:25,171 1 INFO test odoo.modules.loading: Loading module sale (46/50) 
+2024-08-12 21:03:25,276 1 INFO test odoo.modules.registry: module sale: creating or updating database tables 
+2024-08-12 21:03:25,862 1 INFO test odoo.modules.loading: loading sale/security/ir.model.access.csv 
+2024-08-12 21:03:25,897 1 INFO test odoo.modules.loading: loading sale/security/res_groups.xml 
+2024-08-12 21:03:25,940 1 INFO test odoo.modules.loading: loading sale/security/ir_rules.xml 
+2024-08-12 21:03:26,052 1 INFO test odoo.modules.loading: loading sale/report/account_invoice_report_views.xml 
+2024-08-12 21:03:26,070 1 INFO test odoo.modules.loading: loading sale/report/ir_actions_report_templates.xml 
+2024-08-12 21:03:26,087 1 INFO test odoo.modules.loading: loading sale/report/ir_actions_report.xml 
+2024-08-12 21:03:26,097 1 INFO test odoo.modules.loading: loading sale/report/sale_report_views.xml 
+2024-08-12 21:03:26,128 1 INFO test odoo.modules.loading: loading sale/data/ir_sequence_data.xml 
+2024-08-12 21:03:26,135 1 INFO test odoo.modules.loading: loading sale/data/mail_activity_type_data.xml 
+2024-08-12 21:03:26,142 1 INFO test odoo.modules.loading: loading sale/data/mail_message_subtype_data.xml 
+2024-08-12 21:03:26,156 1 INFO test odoo.modules.loading: loading sale/data/mail_template_data.xml 
+2024-08-12 21:03:26,168 1 INFO test odoo.modules.loading: loading sale/data/sale_data.xml 
+2024-08-12 21:03:26,181 1 INFO test odoo.modules.loading: loading sale/wizard/account_accrued_orders_wizard_views.xml 
+2024-08-12 21:03:26,187 1 INFO test odoo.modules.loading: loading sale/wizard/payment_link_wizard_views.xml 
+2024-08-12 21:03:26,192 1 INFO test odoo.modules.loading: loading sale/wizard/sale_make_invoice_advance_views.xml 
+2024-08-12 21:03:26,202 1 INFO test odoo.modules.loading: loading sale/wizard/sale_order_cancel_views.xml 
+2024-08-12 21:03:26,209 1 INFO test odoo.modules.loading: loading sale/views/sale_order_views.xml 
+2024-08-12 21:03:26,335 1 INFO test odoo.modules.loading: loading sale/views/account_views.xml 
+2024-08-12 21:03:26,380 1 INFO test odoo.modules.loading: loading sale/views/crm_team_views.xml 
+2024-08-12 21:03:26,408 1 INFO test odoo.modules.loading: loading sale/views/mail_activity_views.xml 
+2024-08-12 21:03:26,412 1 INFO test odoo.modules.loading: loading sale/views/payment_templates.xml 
+2024-08-12 21:03:26,425 1 INFO test odoo.modules.loading: loading sale/views/payment_views.xml 
+2024-08-12 21:03:26,441 1 INFO test odoo.modules.loading: loading sale/views/product_packaging_views.xml 
+2024-08-12 21:03:26,453 1 INFO test odoo.modules.loading: loading sale/views/product_views.xml 
+2024-08-12 21:03:26,487 1 INFO test odoo.modules.loading: loading sale/views/res_config_settings_views.xml 
+2024-08-12 21:03:26,525 1 INFO test odoo.modules.loading: loading sale/views/res_partner_views.xml 
+2024-08-12 21:03:26,574 1 INFO test odoo.modules.loading: loading sale/views/variant_templates.xml 
+2024-08-12 21:03:26,586 1 INFO test odoo.modules.loading: loading sale/views/sale_onboarding_views.xml 
+2024-08-12 21:03:26,603 1 INFO test odoo.modules.loading: loading sale/views/sale_order_line_views.xml 
+2024-08-12 21:03:26,623 1 INFO test odoo.modules.loading: loading sale/views/sale_portal_templates.xml 
+2024-08-12 21:03:26,665 1 INFO test odoo.modules.loading: loading sale/views/utm_campaign_views.xml 
+2024-08-12 21:03:26,679 1 INFO test odoo.modules.loading: loading sale/views/sale_menus.xml 
+2024-08-12 21:03:26,795 1 INFO test odoo.modules.loading: Module sale loaded in 1.62s, 2190 queries (+2190 other) 
+2024-08-12 21:03:26,796 1 INFO test odoo.modules.loading: Loading module sale_management (47/50) 
+2024-08-12 21:03:26,969 1 INFO test odoo.modules.registry: module sale_management: creating or updating database tables 
+2024-08-12 21:03:27,275 1 INFO test odoo.modules.loading: loading sale_management/data/digest_data.xml 
+2024-08-12 21:03:27,284 1 INFO test odoo.modules.loading: loading sale_management/security/ir.model.access.csv 
+2024-08-12 21:03:27,296 1 INFO test odoo.modules.loading: loading sale_management/security/sale_management_security.xml 
+2024-08-12 21:03:27,317 1 INFO test odoo.modules.loading: loading sale_management/report/sale_report_templates.xml 
+2024-08-12 21:03:27,327 1 INFO test odoo.modules.loading: loading sale_management/views/sale_order_template_views.xml 
+2024-08-12 21:03:27,348 1 INFO test odoo.modules.loading: loading sale_management/views/digest_views.xml 
+2024-08-12 21:03:27,358 1 INFO test odoo.modules.loading: loading sale_management/views/res_config_settings_views.xml 
+2024-08-12 21:03:27,410 1 INFO test odoo.modules.loading: loading sale_management/views/sale_order_views.xml 
+2024-08-12 21:03:27,427 1 INFO test odoo.modules.loading: loading sale_management/views/sale_portal_templates.xml 
+2024-08-12 21:03:27,436 1 INFO test odoo.modules.loading: loading sale_management/views/sale_management_menus.xml 
+2024-08-12 21:03:27,464 1 INFO test odoo.modules.loading: Module sale_management loaded in 0.67s, 444 queries (+444 other) 
+2024-08-12 21:03:27,464 1 INFO test odoo.modules.loading: Loading module sale_product_configurator (48/50) 
+2024-08-12 21:03:27,552 1 INFO test odoo.modules.registry: module sale_product_configurator: creating or updating database tables 
+2024-08-12 21:03:27,631 1 INFO test odoo.modules.loading: loading sale_product_configurator/views/product_template_views.xml 
+2024-08-12 21:03:27,644 1 INFO test odoo.modules.loading: loading sale_product_configurator/views/sale_order_views.xml 
+2024-08-12 21:03:27,659 1 INFO test odoo.modules.loading: loading sale_product_configurator/views/templates.xml 
+2024-08-12 21:03:27,691 1 INFO test odoo.modules.loading: Module sale_product_configurator loaded in 0.23s, 133 queries (+133 other) 
+2024-08-12 21:03:27,692 1 INFO test odoo.modules.loading: Loading module sale_sms (49/50) 
+2024-08-12 21:03:27,783 1 INFO test odoo.modules.loading: loading sale_sms/security/ir.model.access.csv 
+2024-08-12 21:03:27,809 1 INFO test odoo.modules.loading: loading sale_sms/security/security.xml 
+2024-08-12 21:03:27,827 1 INFO test odoo.modules.loading: Module sale_sms loaded in 0.14s, 35 queries (+35 other) 
+2024-08-12 21:03:27,828 1 INFO test odoo.modules.loading: Loading module spreadsheet_dashboard_sale (50/50) 
+2024-08-12 21:03:27,916 1 INFO test odoo.modules.loading: loading spreadsheet_dashboard_sale/data/dashboards.xml 
+2024-08-12 21:03:27,970 1 INFO test odoo.modules.loading: Module spreadsheet_dashboard_sale loaded in 0.14s, 30 queries (+30 other) 
+2024-08-12 21:03:27,971 1 INFO test odoo.modules.loading: 50 modules loaded in 20.85s, 21759 queries (+21759 extra) 
+2024-08-12 21:03:28,533 1 INFO test odoo.modules.loading: Modules loaded. 
+2024-08-12 21:03:28,540 1 INFO test odoo.modules.registry: Registry loaded in 21.910s 
+2024-08-12 21:03:28,541 1 INFO test odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-08-12 21:03:28,546 1 INFO test odoo.modules.registry: Registry changed, signaling through the database 
+2024-08-12 21:03:28,548 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:28] "POST /web/dataset/call_button HTTP/1.1" 200 - 23735 11.493 10.547
+2024-08-12 21:03:28,567 1 INFO test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-08-12 21:03:32,584 1 INFO test odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-08-12 21:03:32,585 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:32] "GET /web HTTP/1.1" 200 - 170 0.104 3.918
+2024-08-12 21:03:32,617 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:32] "GET /web/assets/113-9087066/web.assets_backend.min.css HTTP/1.1" 200 - 7 0.007 0.009
+2024-08-12 21:03:32,618 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:32] "GET /web/assets/112-c769070/web.assets_common.min.css HTTP/1.1" 200 - 9 0.011 0.009
+2024-08-12 21:03:32,624 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:32] "GET /web/assets/114-c769070/web.assets_common.min.js HTTP/1.1" 200 - 4 0.007 0.012
+2024-08-12 21:03:32,624 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:32] "GET /web/assets/115-9087066/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.004 0.013
+2024-08-12 21:03:32,631 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:32] "GET /web/assets/116-6e7f40c/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.005 0.017
+2024-08-12 21:03:32,650 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:32] "GET /web/webclient/translations/4cb244f2de8d3161c8ded416b54e8f30a676acf4?lang=en_US HTTP/1.1" 200 - 2 0.003 0.009
+2024-08-12 21:03:32,694 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:32] "GET /web/webclient/load_menus/39beb5faf5d202caec3306cbc11ceb60f52602e03294382191022aa224833e69 HTTP/1.1" 200 - 27 0.035 0.048
+2024-08-12 21:03:33,068 1 INFO test odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company My Company (1) 
+2024-08-12 21:03:33,089 1 INFO test odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-08-12 21:03:33,091 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:33] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 20 0.011 0.021
+2024-08-12 21:03:33,099 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:33] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 10 0.009 0.007
+2024-08-12 21:03:33,147 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:33] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.003 0.009
+2024-08-12 21:03:33,162 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:33] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.009
+2024-08-12 21:03:33,182 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:33] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.023
+2024-08-12 21:03:33,183 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:33] "POST /web/action/load HTTP/1.1" 200 - 8 0.015 0.017
+2024-08-12 21:03:33,192 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:33] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.026 0.021
+2024-08-12 21:03:33,254 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:33] "POST /mail/init_messaging HTTP/1.1" 200 - 99 0.079 0.066
+2024-08-12 21:03:33,284 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:33] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.002 0.006
+2024-08-12 21:03:33,287 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:33] "POST /mail/inbox/messages HTTP/1.1" 200 - 6 0.006 0.006
+2024-08-12 21:03:33,314 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:33] "GET /web/image/mail.channel/1/avatar_128?unique=fd8d5f3aee1773ddd0f9f1df638238ed8d1fc75c78f7cd92a339f92ee51e45606dbec97ee0b4922cfa5b25a7b505e2f49ca10715656965e4998e0ae9dfe8302a HTTP/1.1" 200 - 9 0.007 0.008
+2024-08-12 21:03:33,316 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:33] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.007 0.008
+2024-08-12 21:03:37,321 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:37] "POST /web/action/load HTTP/1.1" 200 - 10 0.004 0.008
+2024-08-12 21:03:37,386 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:37] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 39 0.013 0.045
+2024-08-12 21:03:37,459 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:37] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 102 0.023 0.020
+2024-08-12 21:03:37,537 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:37] "POST /base_setup/demo_active HTTP/1.1" 200 - 3 0.002 0.003
+2024-08-12 21:03:37,548 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:37] "POST /base_setup/data HTTP/1.1" 200 - 6 0.002 0.003
+2024-08-12 21:03:37,572 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:37] "GET /base/static/description/settings.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-08-12 21:03:37,572 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:37] "GET /web/static/img/transparent.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-08-12 21:03:37,587 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:37] "GET /base_setup/static/src/img/app_store.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-08-12 21:03:37,588 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:37] "GET /base_setup/static/src/img/google_play.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-08-12 21:03:43,411 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:43] "POST /web/action/load HTTP/1.1" 200 - 11 0.004 0.008
+2024-08-12 21:03:43,458 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:43] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.013 0.021
+2024-08-12 21:03:43,475 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:43] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.005
+2024-08-12 21:03:43,491 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.013 0.011
+2024-08-12 21:03:48,170 1 INFO test odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-08-12 21:03:48,174 1 INFO test odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-08-12 21:03:48,181 1 INFO test odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2024-08-12 21:03:48,185 1 INFO test odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2024-08-12 21:03:48,191 1 INFO test odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2024-08-12 21:03:48,194 1 INFO test odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2024-08-12 21:03:48,200 1 INFO test odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2024-08-12 21:03:48,204 1 INFO test odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2024-08-12 21:03:48,211 1 INFO test odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-08-12 21:03:48,214 1 INFO test odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-08-12 21:03:48,219 1 INFO test odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-08-12 21:03:48,222 1 INFO test odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-08-12 21:03:48,228 1 INFO test odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-08-12 21:03:48,231 1 INFO test odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-08-12 21:03:48,237 1 INFO test odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-08-12 21:03:48,240 1 INFO test odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-08-12 21:03:51,642 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:51] "POST /web/action/load HTTP/1.1" 200 - 7 0.003 0.005
+2024-08-12 21:03:58,289 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:58] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.006
+2024-08-12 21:03:58,308 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:03:58] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.013 0.015
+2024-08-12 21:04:09,441 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.009 0.010
+2024-08-12 21:04:09,456 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:09] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.006
+2024-08-12 21:04:16,866 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:16] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 16 0.007 0.015
+2024-08-12 21:04:21,256 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:21] "GET /web?debug=1 HTTP/1.1" 200 - 76 0.029 0.258
+2024-08-12 21:04:21,274 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:21] "GET /web/webclient/load_menus/c6c4a1a525529bb168b2706a652147defadd292e77499aaea35741ce57f07631 HTTP/1.1" 200 - 1 0.000 0.003
+2024-08-12 21:04:21,626 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:21] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.002 0.004
+2024-08-12 21:04:21,669 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:21] "POST /mail/init_messaging HTTP/1.1" 200 - 30 0.012 0.014
+2024-08-12 21:04:21,678 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:21] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.001 0.004
+2024-08-12 21:04:21,685 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:21] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.003
+2024-08-12 21:04:21,703 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:21] "POST /web/action/load HTTP/1.1" 200 - 8 0.009 0.013
+2024-08-12 21:04:21,708 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:21] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.012 0.016
+2024-08-12 21:04:21,712 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:21] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.003 0.012
+2024-08-12 21:04:21,715 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:21] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.009
+2024-08-12 21:04:21,728 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:21] "POST /mail/inbox/messages HTTP/1.1" 200 - 4 0.002 0.004
+2024-08-12 21:04:21,749 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:21] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 304 - 7 0.003 0.008
+2024-08-12 21:04:24,692 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:24] "POST /web/action/load HTTP/1.1" 200 - 10 0.005 0.007
+2024-08-12 21:04:24,704 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:24] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 3 0.002 0.006
+2024-08-12 21:04:24,728 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:24] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.007
+2024-08-12 21:04:24,745 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.016 0.012
+2024-08-12 21:04:26,809 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:26] "POST /web/action/load HTTP/1.1" 200 - 10 0.004 0.006
+2024-08-12 21:04:26,824 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:26] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 9 0.003 0.006
+2024-08-12 21:04:26,840 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:26] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.001 0.003
+2024-08-12 21:04:27,848 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:27] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 4 0.002 0.005
+2024-08-12 21:04:27,859 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:27] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.002 0.003
+2024-08-12 21:04:27,868 1 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 172.22.0.1 
+2024-08-12 21:04:28,360 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:28] "POST /web/dataset/call_button HTTP/1.1" 200 - 1155 0.251 0.243
+2024-08-12 21:04:39,063 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:39] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.007
+2024-08-12 21:04:39,075 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:39] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.014 0.010
+2024-08-12 21:04:41,738 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.014 0.010
+2024-08-12 21:04:41,749 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:41] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.002 0.003
+2024-08-12 21:04:41,760 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:41] "GET /web/static/img/empty_folder.svg HTTP/1.1" 200 - 0 0.000 0.001
+2024-08-12 21:04:43,597 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:43] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-12 21:04:43,610 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:04:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.013 0.011
+2024-08-12 21:05:31,937 1 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 21:05:31,938 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 21:05:31,938 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 21:05:31,939 1 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 21:05:32,038 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 21:05:32,190 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on f427e288e981:8069 
+2024-08-12 21:05:32,875 1 INFO test odoo.modules.loading: loading 1 modules... 
+2024-08-12 21:05:32,881 1 INFO test odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-08-12 21:05:32,914 1 INFO test odoo.modules.loading: loading 50 modules... 
+2024-08-12 21:05:33,456 1 INFO test odoo.modules.loading: 50 modules loaded in 0.54s, 0 queries (+0 extra) 
+2024-08-12 21:05:33,600 1 INFO test odoo.modules.loading: Modules loaded. 
+2024-08-12 21:05:33,605 1 INFO test odoo.modules.registry: Registry loaded in 0.740s 
+2024-08-12 21:05:33,607 1 INFO test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-08-12 21:05:33,787 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:05:33] "GET /websocket HTTP/1.1" 101 - 22 0.016 0.906
+2024-08-12 21:05:33,796 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-08-12 21:06:01,817 1 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 21:06:01,818 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 21:06:01,818 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 21:06:01,818 1 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 21:06:01,911 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 21:06:02,092 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 108e90bf92a0:8069 
+2024-08-12 21:06:05,332 1 INFO test odoo.modules.loading: loading 1 modules... 
+2024-08-12 21:06:05,338 1 INFO test odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-08-12 21:06:05,363 1 INFO test odoo.modules.loading: loading 50 modules... 
+2024-08-12 21:06:05,728 1 INFO test odoo.modules.loading: 50 modules loaded in 0.36s, 0 queries (+0 extra) 
+2024-08-12 21:06:05,818 1 INFO test odoo.modules.loading: Modules loaded. 
+2024-08-12 21:06:05,822 1 INFO test odoo.modules.registry: Registry loaded in 0.497s 
+2024-08-12 21:06:05,823 1 INFO test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-08-12 21:06:05,950 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:05] "GET /websocket HTTP/1.1" 101 - 22 0.014 0.612
+2024-08-12 21:06:05,957 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-08-12 21:06:11,118 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:11] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 4 0.002 0.398
+2024-08-12 21:06:13,143 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:13] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 5 0.003 0.005
+2024-08-12 21:06:13,159 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:13] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.001 0.008
+2024-08-12 21:06:13,168 1 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 172.22.0.1 
+2024-08-12 21:06:13,634 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:13] "POST /web/dataset/call_button HTTP/1.1" 200 - 1169 0.246 0.224
+2024-08-12 21:06:22,926 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:22] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.014 0.010
+2024-08-12 21:06:22,946 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:22] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2024-08-12 21:06:22,986 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:22] "GET /cortizo_estimation/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.017
+2024-08-12 21:06:24,825 1 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Cortizo Estimation'] to user admin #2 via 172.22.0.1 
+2024-08-12 21:06:24,826 1 INFO test odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-08-12 21:06:24,827 1 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Cortizo Estimation'] to user admin #2 via 172.22.0.1 
+2024-08-12 21:06:24,870 1 INFO test odoo.modules.loading: loading 1 modules... 
+2024-08-12 21:06:24,876 1 INFO test odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-08-12 21:06:24,892 1 INFO test odoo.modules.loading: updating modules list 
+2024-08-12 21:06:24,895 1 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2024-08-12 21:06:25,356 1 INFO test odoo.modules.loading: loading 50 modules... 
+2024-08-12 21:06:25,380 1 INFO test odoo.modules.loading: 50 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-08-12 21:06:25,382 1 INFO test odoo.modules.loading: loading 51 modules... 
+2024-08-12 21:06:25,382 1 INFO test odoo.modules.loading: Loading module cortizo_estimation (2/51) 
+2024-08-12 21:06:25,434 1 WARNING test odoo.models: The model cortizo.bifold.component.line has no _description 
+2024-08-12 21:06:25,435 1 WARNING test odoo.models: The model cortizo.bifold.cost.line has no _description 
+2024-08-12 21:06:25,581 1 INFO test odoo.modules.registry: module cortizo_estimation: creating or updating database tables 
+2024-08-12 21:06:25,713 1 INFO test odoo.modules.loading: loading cortizo_estimation/security/ir.model.access.csv 
+2024-08-12 21:06:25,734 1 INFO test odoo.modules.loading: loading cortizo_estimation/views/cortizo_estimation_views.xml 
+2024-08-12 21:06:25,792 1 INFO test odoo.modules.loading: Module cortizo_estimation loaded in 0.41s, 135 queries (+135 other) 
+2024-08-12 21:06:25,793 1 INFO test odoo.modules.loading: 51 modules loaded in 0.41s, 135 queries (+135 extra) 
+2024-08-12 21:06:26,256 1 INFO test odoo.modules.loading: Modules loaded. 
+2024-08-12 21:06:26,262 1 INFO test odoo.modules.registry: Registry loaded in 1.402s 
+2024-08-12 21:06:26,263 1 INFO test odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-08-12 21:06:26,266 1 INFO test odoo.modules.registry: Registry changed, signaling through the database 
+2024-08-12 21:06:26,267 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:26] "POST /web/dataset/call_button HTTP/1.1" 200 - 2015 0.592 0.853
+2024-08-12 21:06:26,283 1 INFO test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-08-12 21:06:26,728 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:26] "GET /web HTTP/1.1" 200 - 86 0.032 0.414
+2024-08-12 21:06:26,754 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:26] "GET /web/webclient/load_menus/810e00bd243797cb6e75b0960f70bef2dfd428329c044621231a32c75ae99527 HTTP/1.1" 200 - 2 0.002 0.004
+2024-08-12 21:06:26,755 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:26] "GET /web/webclient/translations/68fc9b19a5f1e15d2471d08c18c9883f914db79d?lang=en_US HTTP/1.1" 200 - 3 0.002 0.003
+2024-08-12 21:06:27,054 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:27] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.001 0.005
+2024-08-12 21:06:27,070 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:27] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.002
+2024-08-12 21:06:27,110 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:27] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.006 0.009
+2024-08-12 21:06:27,113 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:27] "POST /mail/init_messaging HTTP/1.1" 200 - 54 0.023 0.022
+2024-08-12 21:06:27,117 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:27] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.010
+2024-08-12 21:06:27,128 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:27] "POST /web/action/load HTTP/1.1" 200 - 8 0.010 0.015
+2024-08-12 21:06:27,142 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:27] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 15 0.021 0.019
+2024-08-12 21:06:27,143 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:27] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.004 0.008
+2024-08-12 21:06:27,159 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:27] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.005 0.004
+2024-08-12 21:06:27,199 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:27] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 304 - 7 0.005 0.015
+2024-08-12 21:06:31,238 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:31] "POST /web/action/load HTTP/1.1" 200 - 10 0.004 0.006
+2024-08-12 21:06:31,274 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:31] "POST /web/dataset/call_kw/cortizo.bifold.estimation/get_views HTTP/1.1" 200 - 36 0.013 0.018
+2024-08-12 21:06:31,290 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:31] "POST /web/dataset/call_kw/cortizo.bifold.estimation/web_search_read HTTP/1.1" 200 - 3 0.001 0.003
+2024-08-12 21:06:31,290 1 INFO test werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:31] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2024-08-12 21:06:31,317 1 INFO ? werkzeug: 172.22.0.1 - - [12/Aug/2024 21:06:31] "GET /web/static/img/smiling_face.svg HTTP/1.1" 200 - 0 0.000 0.002
+2024-08-12 21:08:01,463 1809 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 21:08:01,464 1809 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 21:08:01,464 1809 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 21:08:01,465 1809 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 21:08:01,545 1809 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 21:14:02,480 1 INFO test odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-08-12 21:14:02,484 1 INFO test odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-08-12 22:10:00,143 1 INFO ? odoo: Odoo version 16.0-20240730 
+2024-08-12 22:10:00,145 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 22:10:00,145 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 22:10:00,146 1 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 22:10:00,285 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 22:10:00,553 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 4d7c2103c5f1:8069 
+2024-08-12 22:51:12,250 2783 INFO ? odoo: Odoo version 16.0 
+2024-08-12 22:51:12,251 2783 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-12 22:51:12,252 2783 INFO ? odoo: addons paths: ['/odoo/odoo/addons', '/root/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-12 22:51:12,252 2783 INFO ? odoo: database: odoo@db:5432 
+2024-08-12 22:51:12,254 2783 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2024-08-12 22:51:12,255 2783 CRITICAL ? odoo.modules.module: No module named 'odoo.addons.web' 
+2024-08-12 22:51:12,255 2783 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/odoo/odoo/service/server.py", line 1259, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/odoo/odoo/modules/module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+ModuleNotFoundError: No module named 'odoo.addons.web'
+2024-08-12 22:51:12,423 2783 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-08-12 22:51:12,707 2783 INFO ? odoo.service.server: HTTP service (werkzeug) running on 30efb6c9f15c:8069 
+2024-08-19 00:36:07,499 1315 INFO ? odoo: Odoo version 16.0 
+2024-08-19 00:36:07,501 1315 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-19 00:36:07,502 1315 INFO ? odoo: addons paths: ['/opt/odoo/odoo/addons', '/root/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-19 00:36:07,502 1315 INFO ? odoo: database: odoo@db:5432 
+2024-08-19 00:36:07,504 1315 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2024-08-19 00:36:07,505 1315 CRITICAL ? odoo.modules.module: No module named 'odoo.addons.web' 
+2024-08-19 00:36:07,505 1315 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/opt/odoo/odoo/service/server.py", line 1259, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/opt/odoo/odoo/modules/module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+ModuleNotFoundError: No module named 'odoo.addons.web'
+2024-08-19 00:36:07,582 1315 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-08-19 00:36:14,795 1315 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-19 00:36:14,796 1315 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-19 00:36:14,796 1315 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-08-19 00:36:59,354 485 INFO ? odoo: Odoo version 16.0 
+2024-08-19 00:36:59,356 485 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-19 00:36:59,356 485 INFO ? odoo: addons paths: ['/opt/odoo/odoo/addons', '/root/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-19 00:36:59,357 485 INFO ? odoo: database: odoo@db:5432 
+2024-08-19 00:36:59,479 485 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-08-19 00:36:59,669 485 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2024-08-19 00:36:59,669 485 CRITICAL ? odoo.modules.module: No module named 'odoo.addons.web' 
+2024-08-19 00:36:59,670 485 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/opt/odoo/odoo/service/server.py", line 1259, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/opt/odoo/odoo/modules/module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+ModuleNotFoundError: No module named 'odoo.addons.web'
+2024-08-19 00:36:59,674 485 INFO ? odoo.service.server: HTTP service (werkzeug) running on 25b2623f3180:8069 
+2024-08-19 00:37:10,581 485 INFO test odoo.modules.loading: loading 1 modules... 
+2024-08-19 00:37:10,587 485 INFO test odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-08-19 00:37:10,593 485 WARNING test odoo.modules.graph: module spreadsheet_dashboard_account: not installable, skipped 
+2024-08-19 00:37:10,594 485 WARNING test odoo.modules.graph: module analytic: not installable, skipped 
+2024-08-19 00:37:10,595 485 WARNING test odoo.modules.graph: module account_payment: not installable, skipped 
+2024-08-19 00:37:10,596 485 WARNING test odoo.modules.graph: module sale_sms: not installable, skipped 
+2024-08-19 00:37:10,597 485 WARNING test odoo.modules.graph: module base_install_request: not installable, skipped 
+2024-08-19 00:37:10,598 485 WARNING test odoo.modules.graph: module privacy_lookup: not installable, skipped 
+2024-08-19 00:37:10,598 485 WARNING test odoo.modules.graph: module spreadsheet_dashboard: not installable, skipped 
+2024-08-19 00:37:10,599 485 WARNING test odoo.modules.graph: module sale_product_configurator: not installable, skipped 
+2024-08-19 00:37:10,600 485 WARNING test odoo.modules.graph: module snailmail_account: not installable, skipped 
+2024-08-19 00:37:10,600 485 WARNING test odoo.modules.graph: module account_payment_invoice_online_payment_patch: not installable, skipped 
+2024-08-19 00:37:10,601 485 WARNING test odoo.modules.graph: module spreadsheet_dashboard_sale: not installable, skipped 
+2024-08-19 00:37:10,602 485 WARNING test odoo.modules.graph: module phone_validation: not installable, skipped 
+2024-08-19 00:37:10,603 485 WARNING test odoo.modules.graph: module product: not installable, skipped 
+2024-08-19 00:37:10,604 485 WARNING test odoo.modules.graph: module partner_autocomplete: not installable, skipped 
+2024-08-19 00:37:10,605 485 WARNING test odoo.modules.graph: module account_edi: not installable, skipped 
+2024-08-19 00:37:10,605 485 WARNING test odoo.modules.graph: module sale: not installable, skipped 
+2024-08-19 00:37:10,606 485 WARNING test odoo.modules.graph: module sale_management: not installable, skipped 
+2024-08-19 00:37:10,607 485 WARNING test odoo.modules.graph: module iap: not installable, skipped 
+2024-08-19 00:37:10,608 485 WARNING test odoo.modules.graph: module spreadsheet: not installable, skipped 
+2024-08-19 00:37:10,609 485 WARNING test odoo.modules.graph: module auth_totp_mail: not installable, skipped 
+2024-08-19 00:37:10,609 485 WARNING test odoo.modules.graph: module auth_totp: not installable, skipped 
+2024-08-19 00:37:10,610 485 WARNING test odoo.modules.graph: module digest: not installable, skipped 
+2024-08-19 00:37:10,611 485 WARNING test odoo.modules.graph: module account_edi_ubl_cii: not installable, skipped 
+2024-08-19 00:37:10,611 485 WARNING test odoo.modules.graph: module mail_bot: not installable, skipped 
+2024-08-19 00:37:10,612 485 WARNING test odoo.modules.graph: module mail: not installable, skipped 
+2024-08-19 00:37:10,613 485 WARNING test odoo.modules.graph: module sales_team: not installable, skipped 
+2024-08-19 00:37:10,614 485 WARNING test odoo.modules.graph: module spreadsheet_account: not installable, skipped 
+2024-08-19 00:37:10,614 485 WARNING test odoo.modules.graph: module uom: not installable, skipped 
+2024-08-19 00:37:10,615 485 WARNING test odoo.modules.graph: module web_tour: not installable, skipped 
+2024-08-19 00:37:10,616 485 WARNING test odoo.modules.graph: module bus: not installable, skipped 
+2024-08-19 00:37:10,617 485 WARNING test odoo.modules.graph: module sms: not installable, skipped 
+2024-08-19 00:37:10,618 485 WARNING test odoo.modules.graph: module snailmail: not installable, skipped 
+2024-08-19 00:37:10,619 485 WARNING test odoo.modules.graph: module google_gmail: not installable, skipped 
+2024-08-19 00:37:10,619 485 WARNING test odoo.modules.graph: module http_routing: not installable, skipped 
+2024-08-19 00:37:10,620 485 WARNING test odoo.modules.graph: module iap_mail: not installable, skipped 
+2024-08-19 00:37:10,621 485 WARNING test odoo.modules.graph: module account_sequence: not installable, skipped 
+2024-08-19 00:37:10,621 485 WARNING test odoo.modules.graph: module base_setup: not installable, skipped 
+2024-08-19 00:37:10,622 485 WARNING test odoo.modules.graph: module auth_signup: not installable, skipped 
+2024-08-19 00:37:10,623 485 WARNING test odoo.modules.graph: module auth_totp_portal: not installable, skipped 
+2024-08-19 00:37:10,624 485 WARNING test odoo.modules.graph: module web_kanban_gauge: not installable, skipped 
+2024-08-19 00:37:10,624 485 WARNING test odoo.modules.graph: module web: not installable, skipped 
+2024-08-19 00:37:10,625 485 WARNING test odoo.modules.graph: module web_editor: not installable, skipped 
+2024-08-19 00:37:10,626 485 WARNING test odoo.modules.graph: module resource: not installable, skipped 
+2024-08-19 00:37:10,626 485 WARNING test odoo.modules.graph: module portal: not installable, skipped 
+2024-08-19 00:37:10,627 485 WARNING test odoo.modules.graph: module payment: not installable, skipped 
+2024-08-19 00:37:10,628 485 WARNING test odoo.modules.graph: module account: not installable, skipped 
+2024-08-19 00:37:10,629 485 WARNING test odoo.modules.graph: module utm: not installable, skipped 
+2024-08-19 00:37:10,630 485 WARNING test odoo.modules.graph: module web_unsplash: not installable, skipped 
+2024-08-19 00:37:10,631 485 WARNING test odoo.modules.graph: module base_import: not installable, skipped 
+2024-08-19 00:37:10,636 485 INFO test odoo.modules.loading: loading 2 modules... 
+2024-08-19 00:37:10,637 485 INFO test odoo.modules.loading: Loading module cortizo_estimation (2/2) 
+2024-08-19 00:37:10,714 485 WARNING test odoo.models: The model cortizo.bifold.component.line has no _description 
+2024-08-19 00:37:10,715 485 WARNING test odoo.models: The model cortizo.bifold.cost.line has no _description 
+2024-08-19 00:37:10,725 485 WARNING test odoo.fields: Field cortizo.bifold.component.line.product_id with unknown comodel_name 'product.product' 
+2024-08-19 00:37:10,730 485 INFO test odoo.modules.registry: module cortizo_estimation: creating or updating database tables 
+2024-08-19 00:37:10,809 485 INFO test odoo.modules.loading: loading cortizo_estimation/security/ir.model.access.csv 
+2024-08-19 00:37:10,847 485 INFO test odoo.modules.loading: loading cortizo_estimation/views/cortizo_estimation_views.xml 
+2024-08-19 00:37:10,914 485 INFO test odoo.modules.loading: Module cortizo_estimation loaded in 0.28s, 105 queries (+105 other) 
+2024-08-19 00:37:10,914 485 INFO test odoo.modules.loading: 2 modules loaded in 0.28s, 105 queries (+105 extra) 
+2024-08-19 00:37:10,915 485 WARNING test odoo.modules.graph: module spreadsheet_dashboard_account: not installable, skipped 
+2024-08-19 00:37:10,915 485 WARNING test odoo.modules.graph: module analytic: not installable, skipped 
+2024-08-19 00:37:10,916 485 WARNING test odoo.modules.graph: module account_payment: not installable, skipped 
+2024-08-19 00:37:10,916 485 WARNING test odoo.modules.graph: module sale_sms: not installable, skipped 
+2024-08-19 00:37:10,916 485 WARNING test odoo.modules.graph: module base_install_request: not installable, skipped 
+2024-08-19 00:37:10,917 485 WARNING test odoo.modules.graph: module privacy_lookup: not installable, skipped 
+2024-08-19 00:37:10,917 485 WARNING test odoo.modules.graph: module spreadsheet_dashboard: not installable, skipped 
+2024-08-19 00:37:10,917 485 WARNING test odoo.modules.graph: module sale_product_configurator: not installable, skipped 
+2024-08-19 00:37:10,918 485 WARNING test odoo.modules.graph: module snailmail_account: not installable, skipped 
+2024-08-19 00:37:10,918 485 WARNING test odoo.modules.graph: module account_payment_invoice_online_payment_patch: not installable, skipped 
+2024-08-19 00:37:10,918 485 WARNING test odoo.modules.graph: module spreadsheet_dashboard_sale: not installable, skipped 
+2024-08-19 00:37:10,918 485 WARNING test odoo.modules.graph: module phone_validation: not installable, skipped 
+2024-08-19 00:37:10,919 485 WARNING test odoo.modules.graph: module product: not installable, skipped 
+2024-08-19 00:37:10,919 485 WARNING test odoo.modules.graph: module partner_autocomplete: not installable, skipped 
+2024-08-19 00:37:10,919 485 WARNING test odoo.modules.graph: module account_edi: not installable, skipped 
+2024-08-19 00:37:10,920 485 WARNING test odoo.modules.graph: module sale: not installable, skipped 
+2024-08-19 00:37:10,920 485 WARNING test odoo.modules.graph: module sale_management: not installable, skipped 
+2024-08-19 00:37:10,920 485 WARNING test odoo.modules.graph: module iap: not installable, skipped 
+2024-08-19 00:37:10,921 485 WARNING test odoo.modules.graph: module spreadsheet: not installable, skipped 
+2024-08-19 00:37:10,921 485 WARNING test odoo.modules.graph: module auth_totp_mail: not installable, skipped 
+2024-08-19 00:37:10,921 485 WARNING test odoo.modules.graph: module auth_totp: not installable, skipped 
+2024-08-19 00:37:10,922 485 WARNING test odoo.modules.graph: module digest: not installable, skipped 
+2024-08-19 00:37:10,922 485 WARNING test odoo.modules.graph: module account_edi_ubl_cii: not installable, skipped 
+2024-08-19 00:37:10,922 485 WARNING test odoo.modules.graph: module mail_bot: not installable, skipped 
+2024-08-19 00:37:10,923 485 WARNING test odoo.modules.graph: module mail: not installable, skipped 
+2024-08-19 00:37:10,923 485 WARNING test odoo.modules.graph: module sales_team: not installable, skipped 
+2024-08-19 00:37:10,923 485 WARNING test odoo.modules.graph: module spreadsheet_account: not installable, skipped 
+2024-08-19 00:37:10,924 485 WARNING test odoo.modules.graph: module uom: not installable, skipped 
+2024-08-19 00:37:10,924 485 WARNING test odoo.modules.graph: module web_tour: not installable, skipped 
+2024-08-19 00:37:10,924 485 WARNING test odoo.modules.graph: module bus: not installable, skipped 
+2024-08-19 00:37:10,925 485 WARNING test odoo.modules.graph: module sms: not installable, skipped 
+2024-08-19 00:37:10,925 485 WARNING test odoo.modules.graph: module snailmail: not installable, skipped 
+2024-08-19 00:37:10,925 485 WARNING test odoo.modules.graph: module google_gmail: not installable, skipped 
+2024-08-19 00:37:10,926 485 WARNING test odoo.modules.graph: module http_routing: not installable, skipped 
+2024-08-19 00:37:10,926 485 WARNING test odoo.modules.graph: module iap_mail: not installable, skipped 
+2024-08-19 00:37:10,927 485 WARNING test odoo.modules.graph: module account_sequence: not installable, skipped 
+2024-08-19 00:37:10,927 485 WARNING test odoo.modules.graph: module base_setup: not installable, skipped 
+2024-08-19 00:37:10,927 485 WARNING test odoo.modules.graph: module auth_signup: not installable, skipped 
+2024-08-19 00:37:10,928 485 WARNING test odoo.modules.graph: module auth_totp_portal: not installable, skipped 
+2024-08-19 00:37:10,928 485 WARNING test odoo.modules.graph: module web_kanban_gauge: not installable, skipped 
+2024-08-19 00:37:10,928 485 WARNING test odoo.modules.graph: module web: not installable, skipped 
+2024-08-19 00:37:10,929 485 WARNING test odoo.modules.graph: module web_editor: not installable, skipped 
+2024-08-19 00:37:10,929 485 WARNING test odoo.modules.graph: module resource: not installable, skipped 
+2024-08-19 00:37:10,929 485 WARNING test odoo.modules.graph: module portal: not installable, skipped 
+2024-08-19 00:37:10,930 485 WARNING test odoo.modules.graph: module payment: not installable, skipped 
+2024-08-19 00:37:10,930 485 WARNING test odoo.modules.graph: module account: not installable, skipped 
+2024-08-19 00:37:10,930 485 WARNING test odoo.modules.graph: module utm: not installable, skipped 
+2024-08-19 00:37:10,931 485 WARNING test odoo.modules.graph: module web_unsplash: not installable, skipped 
+2024-08-19 00:37:10,931 485 WARNING test odoo.modules.graph: module base_import: not installable, skipped 
+2024-08-19 00:37:10,932 485 INFO test odoo.modules.loading: loading 2 modules... 
+2024-08-19 00:37:10,932 485 INFO test odoo.modules.loading: 2 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-08-19 00:37:10,933 485 WARNING test odoo.modules.graph: module spreadsheet_dashboard_account: not installable, skipped 
+2024-08-19 00:37:10,933 485 WARNING test odoo.modules.graph: module analytic: not installable, skipped 
+2024-08-19 00:37:10,933 485 WARNING test odoo.modules.graph: module account_payment: not installable, skipped 
+2024-08-19 00:37:10,934 485 WARNING test odoo.modules.graph: module sale_sms: not installable, skipped 
+2024-08-19 00:37:10,934 485 WARNING test odoo.modules.graph: module base_install_request: not installable, skipped 
+2024-08-19 00:37:10,934 485 WARNING test odoo.modules.graph: module privacy_lookup: not installable, skipped 
+2024-08-19 00:37:10,935 485 WARNING test odoo.modules.graph: module spreadsheet_dashboard: not installable, skipped 
+2024-08-19 00:37:10,935 485 WARNING test odoo.modules.graph: module sale_product_configurator: not installable, skipped 
+2024-08-19 00:37:10,935 485 WARNING test odoo.modules.graph: module snailmail_account: not installable, skipped 
+2024-08-19 00:37:10,936 485 WARNING test odoo.modules.graph: module account_payment_invoice_online_payment_patch: not installable, skipped 
+2024-08-19 00:37:10,936 485 WARNING test odoo.modules.graph: module spreadsheet_dashboard_sale: not installable, skipped 
+2024-08-19 00:37:10,936 485 WARNING test odoo.modules.graph: module phone_validation: not installable, skipped 
+2024-08-19 00:37:10,936 485 WARNING test odoo.modules.graph: module product: not installable, skipped 
+2024-08-19 00:37:10,937 485 WARNING test odoo.modules.graph: module partner_autocomplete: not installable, skipped 
+2024-08-19 00:37:10,937 485 WARNING test odoo.modules.graph: module account_edi: not installable, skipped 
+2024-08-19 00:37:10,937 485 WARNING test odoo.modules.graph: module sale: not installable, skipped 
+2024-08-19 00:37:10,938 485 WARNING test odoo.modules.graph: module sale_management: not installable, skipped 
+2024-08-19 00:37:10,938 485 WARNING test odoo.modules.graph: module iap: not installable, skipped 
+2024-08-19 00:37:10,938 485 WARNING test odoo.modules.graph: module spreadsheet: not installable, skipped 
+2024-08-19 00:37:10,939 485 WARNING test odoo.modules.graph: module auth_totp_mail: not installable, skipped 
+2024-08-19 00:37:10,939 485 WARNING test odoo.modules.graph: module auth_totp: not installable, skipped 
+2024-08-19 00:37:10,939 485 WARNING test odoo.modules.graph: module digest: not installable, skipped 
+2024-08-19 00:37:10,940 485 WARNING test odoo.modules.graph: module account_edi_ubl_cii: not installable, skipped 
+2024-08-19 00:37:10,940 485 WARNING test odoo.modules.graph: module mail_bot: not installable, skipped 
+2024-08-19 00:37:10,940 485 WARNING test odoo.modules.graph: module mail: not installable, skipped 
+2024-08-19 00:37:10,940 485 WARNING test odoo.modules.graph: module sales_team: not installable, skipped 
+2024-08-19 00:37:10,941 485 WARNING test odoo.modules.graph: module spreadsheet_account: not installable, skipped 
+2024-08-19 00:37:10,941 485 WARNING test odoo.modules.graph: module uom: not installable, skipped 
+2024-08-19 00:37:10,941 485 WARNING test odoo.modules.graph: module web_tour: not installable, skipped 
+2024-08-19 00:37:10,942 485 WARNING test odoo.modules.graph: module bus: not installable, skipped 
+2024-08-19 00:37:10,942 485 WARNING test odoo.modules.graph: module sms: not installable, skipped 
+2024-08-19 00:37:10,942 485 WARNING test odoo.modules.graph: module snailmail: not installable, skipped 
+2024-08-19 00:37:10,943 485 WARNING test odoo.modules.graph: module google_gmail: not installable, skipped 
+2024-08-19 00:37:10,943 485 WARNING test odoo.modules.graph: module http_routing: not installable, skipped 
+2024-08-19 00:37:10,943 485 WARNING test odoo.modules.graph: module iap_mail: not installable, skipped 
+2024-08-19 00:37:10,944 485 WARNING test odoo.modules.graph: module account_sequence: not installable, skipped 
+2024-08-19 00:37:10,944 485 WARNING test odoo.modules.graph: module base_setup: not installable, skipped 
+2024-08-19 00:37:10,944 485 WARNING test odoo.modules.graph: module auth_signup: not installable, skipped 
+2024-08-19 00:37:10,945 485 WARNING test odoo.modules.graph: module auth_totp_portal: not installable, skipped 
+2024-08-19 00:37:10,945 485 WARNING test odoo.modules.graph: module web_kanban_gauge: not installable, skipped 
+2024-08-19 00:37:10,945 485 WARNING test odoo.modules.graph: module web: not installable, skipped 
+2024-08-19 00:37:10,946 485 WARNING test odoo.modules.graph: module web_editor: not installable, skipped 
+2024-08-19 00:37:10,946 485 WARNING test odoo.modules.graph: module resource: not installable, skipped 
+2024-08-19 00:37:10,946 485 WARNING test odoo.modules.graph: module portal: not installable, skipped 
+2024-08-19 00:37:10,946 485 WARNING test odoo.modules.graph: module payment: not installable, skipped 
+2024-08-19 00:37:10,947 485 WARNING test odoo.modules.graph: module account: not installable, skipped 
+2024-08-19 00:37:10,947 485 WARNING test odoo.modules.graph: module utm: not installable, skipped 
+2024-08-19 00:37:10,947 485 WARNING test odoo.modules.graph: module web_unsplash: not installable, skipped 
+2024-08-19 00:37:10,948 485 WARNING test odoo.modules.graph: module base_import: not installable, skipped 
+2024-08-19 00:37:10,949 485 INFO test odoo.modules.loading: loading 2 modules... 
+2024-08-19 00:37:10,949 485 INFO test odoo.modules.loading: 2 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-08-19 00:37:10,967 485 ERROR test odoo.modules.loading: Some modules are not loaded, some dependencies or manifest may be missing: ['account', 'account_edi', 'account_edi_ubl_cii', 'account_payment', 'account_payment_invoice_online_payment_patch', 'account_sequence', 'analytic', 'auth_signup', 'auth_totp', 'auth_totp_mail', 'auth_totp_portal', 'base_import', 'base_install_request', 'base_setup', 'bus', 'digest', 'google_gmail', 'http_routing', 'iap', 'iap_mail', 'mail', 'mail_bot', 'partner_autocomplete', 'payment', 'phone_validation', 'portal', 'privacy_lookup', 'product', 'resource', 'sale', 'sale_management', 'sale_product_configurator', 'sale_sms', 'sales_team', 'sms', 'snailmail', 'snailmail_account', 'spreadsheet', 'spreadsheet_account', 'spreadsheet_dashboard', 'spreadsheet_dashboard_account', 'spreadsheet_dashboard_sale', 'uom', 'utm', 'web', 'web_editor', 'web_kanban_gauge', 'web_tour', 'web_unsplash'] 
+2024-08-19 00:37:10,969 485 INFO test odoo.modules.loading: Model account.account is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,969 485 INFO test odoo.modules.loading: Model account.account.tag is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,969 485 INFO test odoo.modules.loading: Model account.account.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,970 485 INFO test odoo.modules.loading: Model account.accrued.orders.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,970 485 INFO test odoo.modules.loading: Model account.analytic.account is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,971 485 INFO test odoo.modules.loading: Model account.analytic.applicability is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,971 485 INFO test odoo.modules.loading: Model account.analytic.distribution.model is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,971 485 INFO test odoo.modules.loading: Model account.analytic.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,972 485 INFO test odoo.modules.loading: Model account.analytic.plan is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,972 485 INFO test odoo.modules.loading: Model account.automatic.entry.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,972 485 INFO test odoo.modules.loading: Model account.bank.statement is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,973 485 INFO test odoo.modules.loading: Model account.bank.statement.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,973 485 INFO test odoo.modules.loading: Model account.cash.rounding is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,973 485 INFO test odoo.modules.loading: Model account.chart.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,974 485 INFO test odoo.modules.loading: Model account.edi.common is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,974 485 INFO test odoo.modules.loading: Model account.edi.document is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,974 485 INFO test odoo.modules.loading: Model account.edi.format is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,975 485 INFO test odoo.modules.loading: Model account.edi.xml.cii is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,975 485 INFO test odoo.modules.loading: Model account.edi.xml.ubl_20 is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,975 485 INFO test odoo.modules.loading: Model account.edi.xml.ubl_21 is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,975 485 INFO test odoo.modules.loading: Model account.edi.xml.ubl_a_nz is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,976 485 INFO test odoo.modules.loading: Model account.edi.xml.ubl_bis3 is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,976 485 INFO test odoo.modules.loading: Model account.edi.xml.ubl_de is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,977 485 INFO test odoo.modules.loading: Model account.edi.xml.ubl_efff is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,977 485 INFO test odoo.modules.loading: Model account.edi.xml.ubl_nl is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,977 485 INFO test odoo.modules.loading: Model account.edi.xml.ubl_sg is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,978 485 INFO test odoo.modules.loading: Model account.financial.year.op is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,978 485 INFO test odoo.modules.loading: Model account.fiscal.position is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,978 485 INFO test odoo.modules.loading: Model account.fiscal.position.account is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,979 485 INFO test odoo.modules.loading: Model account.fiscal.position.account.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,979 485 INFO test odoo.modules.loading: Model account.fiscal.position.tax is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,979 485 INFO test odoo.modules.loading: Model account.fiscal.position.tax.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,980 485 INFO test odoo.modules.loading: Model account.fiscal.position.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,980 485 INFO test odoo.modules.loading: Model account.full.reconcile is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,980 485 INFO test odoo.modules.loading: Model account.group is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,980 485 INFO test odoo.modules.loading: Model account.group.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,981 485 INFO test odoo.modules.loading: Model account.incoterms is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,981 485 INFO test odoo.modules.loading: Model account.invoice.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,981 485 INFO test odoo.modules.loading: Model account.invoice.send is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,982 485 INFO test odoo.modules.loading: Model account.journal is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,982 485 INFO test odoo.modules.loading: Model account.journal.group is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,982 485 INFO test odoo.modules.loading: Model account.move is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,983 485 INFO test odoo.modules.loading: Model account.move.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,983 485 INFO test odoo.modules.loading: Model account.move.reversal is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,983 485 INFO test odoo.modules.loading: Model account.partial.reconcile is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,984 485 INFO test odoo.modules.loading: Model account.payment is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,984 485 INFO test odoo.modules.loading: Model account.payment.method is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,984 485 INFO test odoo.modules.loading: Model account.payment.method.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,985 485 INFO test odoo.modules.loading: Model account.payment.register is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,985 485 INFO test odoo.modules.loading: Model account.payment.term is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,985 485 INFO test odoo.modules.loading: Model account.payment.term.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,986 485 INFO test odoo.modules.loading: Model account.reconcile.model is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,986 485 INFO test odoo.modules.loading: Model account.reconcile.model.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,986 485 INFO test odoo.modules.loading: Model account.reconcile.model.line.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,987 485 INFO test odoo.modules.loading: Model account.reconcile.model.partner.mapping is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,987 485 INFO test odoo.modules.loading: Model account.reconcile.model.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,987 485 INFO test odoo.modules.loading: Model account.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,987 485 INFO test odoo.modules.loading: Model account.report.column is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,988 485 INFO test odoo.modules.loading: Model account.report.expression is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,988 485 INFO test odoo.modules.loading: Model account.report.external.value is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,988 485 INFO test odoo.modules.loading: Model account.report.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,989 485 INFO test odoo.modules.loading: Model account.resequence.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,989 485 INFO test odoo.modules.loading: Model account.root is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,989 485 INFO test odoo.modules.loading: Model account.setup.bank.manual.config is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,990 485 INFO test odoo.modules.loading: Model account.tax is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,991 485 INFO test odoo.modules.loading: Model account.tax.group is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,991 485 INFO test odoo.modules.loading: Model account.tax.repartition.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,991 485 INFO test odoo.modules.loading: Model account.tax.repartition.line.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,992 485 INFO test odoo.modules.loading: Model account.tax.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,992 485 INFO test odoo.modules.loading: Model account.tour.upload.bill is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,992 485 INFO test odoo.modules.loading: Model account.tour.upload.bill.email.confirm is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,993 485 INFO test odoo.modules.loading: Model account.unreconcile is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,993 485 INFO test odoo.modules.loading: Model analytic.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,993 485 INFO test odoo.modules.loading: Model auth_totp.device is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,994 485 INFO test odoo.modules.loading: Model auth_totp.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,994 485 INFO test odoo.modules.loading: Model base.document.layout is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,997 485 INFO test odoo.modules.loading: Model base.module.install.request is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,997 485 INFO test odoo.modules.loading: Model base.module.install.review is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:10,999 485 INFO test odoo.modules.loading: Model base_import.import is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,000 485 INFO test odoo.modules.loading: Model base_import.mapping is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,000 485 INFO test odoo.modules.loading: Model base_import.tests.models.char is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,000 485 INFO test odoo.modules.loading: Model base_import.tests.models.char.noreadonly is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,001 485 INFO test odoo.modules.loading: Model base_import.tests.models.char.readonly is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,001 485 INFO test odoo.modules.loading: Model base_import.tests.models.char.required is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,001 485 INFO test odoo.modules.loading: Model base_import.tests.models.char.states is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,001 485 INFO test odoo.modules.loading: Model base_import.tests.models.char.stillreadonly is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,002 485 INFO test odoo.modules.loading: Model base_import.tests.models.complex is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,002 485 INFO test odoo.modules.loading: Model base_import.tests.models.float is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,002 485 INFO test odoo.modules.loading: Model base_import.tests.models.m2o is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,003 485 INFO test odoo.modules.loading: Model base_import.tests.models.m2o.related is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,003 485 INFO test odoo.modules.loading: Model base_import.tests.models.m2o.required is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,003 485 INFO test odoo.modules.loading: Model base_import.tests.models.m2o.required.related is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,004 485 INFO test odoo.modules.loading: Model base_import.tests.models.o2m is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,004 485 INFO test odoo.modules.loading: Model base_import.tests.models.o2m.child is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,004 485 INFO test odoo.modules.loading: Model base_import.tests.models.preview is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,005 485 INFO test odoo.modules.loading: Model bus.bus is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,005 485 INFO test odoo.modules.loading: Model bus.presence is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,007 485 INFO test odoo.modules.loading: Model crm.tag is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,008 485 INFO test odoo.modules.loading: Model crm.team is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,008 485 INFO test odoo.modules.loading: Model crm.team.member is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,009 485 INFO test odoo.modules.loading: Model digest.digest is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,009 485 INFO test odoo.modules.loading: Model digest.tip is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,009 485 INFO test odoo.modules.loading: Model fetchmail.server is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,010 485 INFO test odoo.modules.loading: Model google.gmail.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,010 485 INFO test odoo.modules.loading: Model iap.account is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,010 485 INFO test odoo.modules.loading: Model iap.autocomplete.api is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,011 485 INFO test odoo.modules.loading: Model iap.enrich.api is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,026 485 INFO test odoo.modules.loading: Model ir.websocket is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,026 485 INFO test odoo.modules.loading: Model mail.activity is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,027 485 INFO test odoo.modules.loading: Model mail.activity.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,027 485 INFO test odoo.modules.loading: Model mail.activity.type is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,028 485 INFO test odoo.modules.loading: Model mail.alias is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,028 485 INFO test odoo.modules.loading: Model mail.alias.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,028 485 INFO test odoo.modules.loading: Model mail.blacklist is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,029 485 INFO test odoo.modules.loading: Model mail.blacklist.remove is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,029 485 INFO test odoo.modules.loading: Model mail.bot is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,029 485 INFO test odoo.modules.loading: Model mail.channel is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,030 485 INFO test odoo.modules.loading: Model mail.channel.member is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,030 485 INFO test odoo.modules.loading: Model mail.channel.rtc.session is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,030 485 INFO test odoo.modules.loading: Model mail.compose.message is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,030 485 INFO test odoo.modules.loading: Model mail.composer.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,031 485 INFO test odoo.modules.loading: Model mail.followers is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,031 485 INFO test odoo.modules.loading: Model mail.gateway.allowed is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,031 485 INFO test odoo.modules.loading: Model mail.guest is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,032 485 INFO test odoo.modules.loading: Model mail.ice.server is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,032 485 INFO test odoo.modules.loading: Model mail.link.preview is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,032 485 INFO test odoo.modules.loading: Model mail.mail is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,033 485 INFO test odoo.modules.loading: Model mail.message is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,033 485 INFO test odoo.modules.loading: Model mail.message.reaction is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,033 485 INFO test odoo.modules.loading: Model mail.message.schedule is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,034 485 INFO test odoo.modules.loading: Model mail.message.subtype is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,034 485 INFO test odoo.modules.loading: Model mail.notification is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,034 485 INFO test odoo.modules.loading: Model mail.render.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,034 485 INFO test odoo.modules.loading: Model mail.resend.message is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,035 485 INFO test odoo.modules.loading: Model mail.resend.partner is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,035 485 INFO test odoo.modules.loading: Model mail.shortcode is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,035 485 INFO test odoo.modules.loading: Model mail.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,036 485 INFO test odoo.modules.loading: Model mail.template.preview is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,036 485 INFO test odoo.modules.loading: Model mail.template.reset is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,036 485 INFO test odoo.modules.loading: Model mail.thread is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,037 485 INFO test odoo.modules.loading: Model mail.thread.blacklist is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,037 485 INFO test odoo.modules.loading: Model mail.thread.cc is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,037 485 INFO test odoo.modules.loading: Model mail.thread.phone is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,037 485 INFO test odoo.modules.loading: Model mail.tracking.value is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,038 485 INFO test odoo.modules.loading: Model mail.wizard.invite is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,038 485 INFO test odoo.modules.loading: Model payment.icon is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,038 485 INFO test odoo.modules.loading: Model payment.link.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,039 485 INFO test odoo.modules.loading: Model payment.provider is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,039 485 INFO test odoo.modules.loading: Model payment.provider.onboarding.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,040 485 INFO test odoo.modules.loading: Model payment.refund.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,040 485 INFO test odoo.modules.loading: Model payment.token is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,040 485 INFO test odoo.modules.loading: Model payment.transaction is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,041 485 INFO test odoo.modules.loading: Model phone.blacklist is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,041 485 INFO test odoo.modules.loading: Model phone.blacklist.remove is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,041 485 INFO test odoo.modules.loading: Model portal.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,041 485 INFO test odoo.modules.loading: Model portal.share is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,042 485 INFO test odoo.modules.loading: Model portal.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,042 485 INFO test odoo.modules.loading: Model portal.wizard.user is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,042 485 INFO test odoo.modules.loading: Model privacy.log is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,043 485 INFO test odoo.modules.loading: Model privacy.lookup.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,043 485 INFO test odoo.modules.loading: Model privacy.lookup.wizard.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,043 485 INFO test odoo.modules.loading: Model product.attribute is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,044 485 INFO test odoo.modules.loading: Model product.attribute.custom.value is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,044 485 INFO test odoo.modules.loading: Model product.attribute.value is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,044 485 INFO test odoo.modules.loading: Model product.category is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,044 485 INFO test odoo.modules.loading: Model product.label.layout is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,045 485 INFO test odoo.modules.loading: Model product.packaging is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,045 485 INFO test odoo.modules.loading: Model product.pricelist is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,045 485 INFO test odoo.modules.loading: Model product.pricelist.item is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,046 485 INFO test odoo.modules.loading: Model product.product is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,046 485 INFO test odoo.modules.loading: Model product.supplierinfo is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,046 485 INFO test odoo.modules.loading: Model product.tag is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,047 485 INFO test odoo.modules.loading: Model product.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,047 485 INFO test odoo.modules.loading: Model product.template.attribute.exclusion is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,047 485 INFO test odoo.modules.loading: Model product.template.attribute.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,048 485 INFO test odoo.modules.loading: Model product.template.attribute.value is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,048 485 INFO test odoo.modules.loading: Model publisher_warranty.contract is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,048 485 INFO test odoo.modules.loading: Model report.account.report_hash_integrity is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,048 485 INFO test odoo.modules.loading: Model report.account.report_invoice is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,049 485 INFO test odoo.modules.loading: Model report.account.report_invoice_with_payments is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,050 485 INFO test odoo.modules.loading: Model report.product.report_pricelist is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,051 485 INFO test odoo.modules.loading: Model report.product.report_producttemplatelabel is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,051 485 INFO test odoo.modules.loading: Model report.product.report_producttemplatelabel_dymo is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,064 485 INFO test odoo.modules.loading: Model res.partner.autocomplete.sync is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,070 485 INFO test odoo.modules.loading: Model res.users.settings is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,070 485 INFO test odoo.modules.loading: Model res.users.settings.volumes is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,071 485 INFO test odoo.modules.loading: Model resource.calendar is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,071 485 INFO test odoo.modules.loading: Model resource.calendar.attendance is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,072 485 INFO test odoo.modules.loading: Model resource.calendar.leaves is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,072 485 INFO test odoo.modules.loading: Model resource.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,072 485 INFO test odoo.modules.loading: Model resource.resource is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,073 485 INFO test odoo.modules.loading: Model sale.advance.payment.inv is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,073 485 INFO test odoo.modules.loading: Model sale.order is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,073 485 INFO test odoo.modules.loading: Model sale.order.cancel is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,074 485 INFO test odoo.modules.loading: Model sale.order.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,074 485 INFO test odoo.modules.loading: Model sale.order.option is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,074 485 INFO test odoo.modules.loading: Model sale.order.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,075 485 INFO test odoo.modules.loading: Model sale.order.template.line is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,075 485 INFO test odoo.modules.loading: Model sale.order.template.option is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,075 485 INFO test odoo.modules.loading: Model sale.payment.provider.onboarding.wizard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,076 485 INFO test odoo.modules.loading: Model sale.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,076 485 INFO test odoo.modules.loading: Model sequence.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,076 485 INFO test odoo.modules.loading: Model sms.api is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,077 485 INFO test odoo.modules.loading: Model sms.composer is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,077 485 INFO test odoo.modules.loading: Model sms.resend is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,077 485 INFO test odoo.modules.loading: Model sms.resend.recipient is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,077 485 INFO test odoo.modules.loading: Model sms.sms is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,078 485 INFO test odoo.modules.loading: Model sms.template is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,078 485 INFO test odoo.modules.loading: Model sms.template.preview is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,078 485 INFO test odoo.modules.loading: Model sms.template.reset is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,079 485 INFO test odoo.modules.loading: Model snailmail.confirm is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,079 485 INFO test odoo.modules.loading: Model snailmail.confirm.invoice is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,079 485 INFO test odoo.modules.loading: Model snailmail.letter is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,080 485 INFO test odoo.modules.loading: Model snailmail.letter.format.error is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,080 485 INFO test odoo.modules.loading: Model snailmail.letter.missing.required.fields is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,080 485 INFO test odoo.modules.loading: Model spreadsheet.dashboard is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,080 485 INFO test odoo.modules.loading: Model spreadsheet.dashboard.group is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,081 485 INFO test odoo.modules.loading: Model template.reset.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,081 485 INFO test odoo.modules.loading: Model uom.category is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,081 485 INFO test odoo.modules.loading: Model uom.uom is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,082 485 INFO test odoo.modules.loading: Model utm.campaign is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,082 485 INFO test odoo.modules.loading: Model utm.medium is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,082 485 INFO test odoo.modules.loading: Model utm.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,083 485 INFO test odoo.modules.loading: Model utm.source is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,083 485 INFO test odoo.modules.loading: Model utm.source.mixin is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,083 485 INFO test odoo.modules.loading: Model utm.stage is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,084 485 INFO test odoo.modules.loading: Model utm.tag is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,084 485 INFO test odoo.modules.loading: Model validate.account.move is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,084 485 INFO test odoo.modules.loading: Model web_editor.assets is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,085 485 INFO test odoo.modules.loading: Model web_editor.converter.test is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,085 485 INFO test odoo.modules.loading: Model web_editor.converter.test.sub is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,085 485 INFO test odoo.modules.loading: Model web_tour.tour is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2024-08-19 00:37:11,087 485 INFO test odoo.modules.loading: Modules loaded. 
+2024-08-19 00:37:11,091 485 INFO test odoo.modules.registry: Registry loaded in 0.569s 
+2024-08-19 00:37:11,093 485 INFO test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-08-19 00:37:11,096 485 INFO test werkzeug: 172.18.0.1 - - [19/Aug/2024 00:37:11] "GET / HTTP/1.1" 404 - 221 0.252 0.343
+2024-08-19 00:37:11,167 485 INFO test werkzeug: 172.18.0.1 - - [19/Aug/2024 00:37:11] "GET /favicon.ico HTTP/1.1" 404 - 3 0.002 0.006
+2024-08-19 00:37:34,110 653 INFO ? odoo: Odoo version 16.0 
+2024-08-19 00:37:34,111 653 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2024-08-19 00:37:34,111 653 INFO ? odoo: addons paths: ['/opt/odoo/odoo/addons', '/root/.local/share/Odoo/addons/16.0', '/mnt/extra-addons'] 
+2024-08-19 00:37:34,111 653 INFO ? odoo: database: odoo@db:5432 
+2024-08-19 00:37:34,114 653 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2024-08-19 00:37:34,114 653 CRITICAL ? odoo.modules.module: No module named 'odoo.addons.web' 
+2024-08-19 00:37:34,114 653 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/opt/odoo/odoo/service/server.py", line 1259, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/opt/odoo/odoo/modules/module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+ModuleNotFoundError: No module named 'odoo.addons.web'
+2024-08-19 00:37:34,221 653 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
